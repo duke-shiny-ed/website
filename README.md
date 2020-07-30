@@ -20,6 +20,28 @@ install_hugo()
 
 - The website is using the [Hugo Academic](https://themes.gohugo.io/academic/) theme.
 
+## Update your project page 
+
+- Go to *content* -> *project* -> *folder for your app*
+- Put a screen shot of your app in your folder under the name *featured.jpg* (.png file should also work). You will need to delete the image that's currently in the foldr before saving the new one. 
+- Update the index file: 
+  - In the header: 
+    - add image caption
+    - change url to the url for your app
+    - update the summary
+    - update the title
+    - update the url to the code to point to your app repo (if you wish)
+  - In the body: 
+    - add description of app (if you wish)
+    - add instructions on how user can flow through the app
+
+You can use Markdown syntax when you write your instructions. Here's a guide for Markdown syntax: https://www.markdownguide.org/cheat-sheet/
+
+Type `serve_site()` in the console once to see a preview of the site. The site will render in the "Viewer" pane in Rstudio. If you want to see it in a web browser, click the icon next to the broom icon. 
+
+Each time you save changes, the webpage will update in your browser. 
+
+
 ## Tips
 
 - Clone the repo and make a new RStudio project.

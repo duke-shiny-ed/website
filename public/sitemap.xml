@@ -25,6 +25,10 @@
   </url>
   
   <url>
+    <loc>/project/regression-outliers/</loc>
+  </url>
+  
+  <url>
     <loc>/project/anova/</loc>
   </url>
   
@@ -34,10 +38,6 @@
   
   <url>
     <loc>/project/logistic-roc/</loc>
-  </url>
-  
-  <url>
-    <loc>/project/regression-outliers/</loc>
   </url>
   
   <url>

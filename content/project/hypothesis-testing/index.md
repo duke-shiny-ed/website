@@ -1,25 +1,40 @@
 ---
 image:
-  caption: Screen shot of my app
+  caption: Hypothesis Testing App -- Type II Error page
   focal_point: Smart
 links:
-- icon: twitter
-  icon_pack: fab
+- icon: atom
+  icon_pack: fas
   name: See the app!
-  url: https://twitter.com/georgecushen
-summary: An example of using the in-built project page.
+  url: https://grace-shiny.shinyapps.io/HypothesisTesting/
+summary: Explore the crucial aspects of hypothesis testing, including setting the hypotheses, calculating the test statistic and p-value, making conclusions, and navigating errors.
 tags:
 - intro
-title: Internal Project
-url_code: "github.com/duke-shiny-ed"
+title: Hypothesis Testing
+url_code: "https://github.com/duke-shiny-ed/HypothesisTestingApp"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
 
-Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.
+## Overview
 
-Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.
+Often in research and data analysis, we want to investigate certain new claims that challenge what is currently believed, so we take some sample data and see whether or not it supports our new claim. Hypothesis testing is a reliable way to take sample data and test how strongly its evidence supports our new claim -- if the evidence is strong, we can reject the old beliefs and support the new; if it is weak, we cannot reject the old beliefs.  
 
-Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.
+This app will allow you to explore hypothesis testing from beginning to end, giving you skills to:  
 
-Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.
+- Identify appropriate null and alternative hypotheses for a problem scenario, and effectively interpret test conclusions in terms of the hypotheses/practical scenario.  
+- Properly calculate and interpret test statistic, p-value, and alpha level, and understand how to use them to make a conclusion. Understand how sample size can affect test statistic and p-value.  
+- Correctly define and interpret Type I and Type II errors, and calculate their probabilities, given various parameters such as alpha, sample size, and testing power. Understand the conditions/assumptions under which each type of error may occur.  
+
+## Instructions
+
+For the best experience with the Hypothesis Testing App, try following these steps:  
+
+1. Check out the Overview page for a big-picture look at hypothesis testing, as well as the introduction of our running example and other small tips about the app's functionality.
+2. Head to the Null/Alternative Hypotheses page to see the interactive sidebar and choose your parameters for your hypothesis test. Then, read about how the hypotheses are formed, and view the distributions graphically!  
+3. Next, visit the Test Statistic/P-Value page to explore how to calculate the hypothesis test results, compare values to make a conclusion, and observe your results on a plot.  
+4. Then, you can look at the Type I/Type II Error tab for an explanation of the kinds of errors that can occur in hypothesis tests and how to reduce them.  
+5. Finally, take a quiz on the Quiz tab to test your knowledge and see if you're a hypothesis test expert! Visit the Resources tab for some further reading if you're interested.  
+
+You can reset parameters and re-run the hypothesis simulation at any time, so be sure to try out different scenarios to see what happens!  
+
+##### Created by Abbey List for the ShinyEd project at Duke University, Summer 2020. Hosted by the Duke University Statistical Science Department.

@@ -34,7 +34,7 @@ Finally, the conclusion of the ANOVA test performed on the population data ident
 
 The next tab, titled "Resources", provided users with a copy of the equations relevant to ANOVA. Knowledge of these equations was not necessary in order to complete steps one through three. This page also gives more insight into how to interpret the R ANVOA test output seen on the Step 3 tab.
 
-The final tab provides a short quiz for users to use to practice ANOVA concepts.
+The final tab provides a short quiz for users practice some of the concepts reviewed throughout the app and to practice running an ANOVA test in R.
 
 
 

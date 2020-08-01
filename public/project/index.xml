@@ -13,24 +13,30 @@
     </image>
     
     <item>
-      <title>Exlporing ANOVA (Analysis of Variance)</title>
+      <title>Exploring ANOVA (Analysis of Variance)</title>
       <link>/project/anova/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/project/anova/</guid>
-      <description>&lt;p&gt;This app utilizes a series of tabs to guide the user through a step-by-step exploration of the ANOVA test.&lt;/p&gt;
-&lt;p&gt;The first tab, the About Page, introduces the learning objectives the app seeks to address and offers a brief introduction to ANOVA. In the following three tabs the user will have the opportunity to conduct their very own ANOVA test.&lt;/p&gt;
-&lt;p&gt;[STEP 1]
-The next tab, title &amp;ldquo;Step 1&amp;rdquo;, kicks off the ANOVA testing process. Here the user is introduced to the null and alternative hypotheses of the ANOVA test. The user can then manipulate the population datasets that will be used for the rest of the exploration. From there the user can progress to the next tab, &amp;ldquo;Step 2&amp;rdquo;.&lt;/p&gt;
-&lt;p&gt;[STEP 2]
-On the &amp;ldquo;Step 2&amp;rdquo; tab random samples have been taken from the population data identified by the user on the previous (&amp;ldquo;Step 1&amp;rdquo;) tab. Here, users can manipulate the size of the samples drawn from each population. This tab also introduces that assumptions of the ANOVA test, and users are told whether or not these assumptions have been met and why under &amp;ldquo;ANOVA Assumptions&amp;rdquo; section. This is dependent on the user&amp;rsquo;s manipualtion of the population data during &amp;ldquo;Step 1&amp;rdquo; and their manipulation of the sample size.&lt;/p&gt;
-&lt;p&gt;The random samples are displayed graphically on this tab as boxplots. Users may interact with the graph to visulaize the boxplots in full, a visual representation of the within groups variances of the samples, or a visual representation of the between groups variance of the samples. The relevance of these are explored further on the next tab, &amp;ldquo;Step 3&amp;rdquo;.&lt;/p&gt;
-&lt;p&gt;[STEP 3]
-The &amp;ldquo;Step 3&amp;rdquo; tab is concerned with reviewing the conclusion made by the ANOVA test regarding the population data identitfied by the user on the &amp;ldquo;Step 1&amp;rdquo; tab. Before receiving the conclusion, users are reminded of the hypotheses tested by ANOVA. Once again, the random samples from Step 2, whose variances are being analyzed by the ANOVA test on this tab, are displayed graphically as boxplots. Under the &amp;ldquo;What is the F-statistic&amp;rdquo; section users are introduced to the F-stat, its relationship to the within groups and between groups variances visualized on the &amp;ldquo;Step 2&amp;rdquo; tab, and how it will be used by ANOVA to reach the conclusion.&lt;/p&gt;
-&lt;p&gt;Finally, the conclusion of the ANOVA test performed on the population data identified during Step 1 is highlighted. The conclusion is put in terms of the hypotheses (present on the Step 1 and Step 3 tabs), and users are also provided with a copy of the ANOVA test output you would expect when using the R programming language to conduct the same ANOVA test.&lt;/p&gt;
-&lt;p&gt;[RESOURCES]
-The next tab, titled &amp;ldquo;Resources&amp;rdquo;, provided users with a copy of the equations relevant to ANOVA. Knowledge of these equations was not necessary in order to complete steps one through three. This page also gives more insight into how to interpret the R ANVOA test output seen on the Step 3 tab.&lt;/p&gt;
-&lt;p&gt;[QUIZ]
-The final tab provides a short quiz for users practice some of the concepts reviewed throughout the app and to practice running an ANOVA test in R.&lt;/p&gt;
+      <description>&lt;p&gt;&lt;em&gt;This app utilizes a series of tabs to guide the user through a step-by-step exploration of the ANOVA test. To acces the Exploring ANOVA app click 
+&lt;a href=&#34;https://samanthaowusu.shinyapps.io/ANOVA-app/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;See the app!&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&#34;about-page&#34;&gt;About Page&lt;/h2&gt;
+&lt;p&gt;This first tab introduces the learning objectives the app seeks to address and offers a brief introduction to ANOVA. In the following three tabs users are given the opportunity to conduct their very own ANOVA test.&lt;/p&gt;
+&lt;h2 id=&#34;step-1&#34;&gt;&lt;strong&gt;Step 1&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;The next tab, titled &amp;ldquo;Step 1&amp;rdquo;, kicks off the ANOVA testing process. Here users are introduced to the null and alternative hypotheses of ANOVA. They may then choose the population data that will be used for the rest of the exploration by interacting with the various manipulators present. Once satisfied with their choices users may progress to the next step.&lt;/p&gt;
+&lt;h2 id=&#34;step-2&#34;&gt;&lt;strong&gt;Step 2&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;On the Step 2 tab, random samples have been taken from the population data chosen during Step 1. Here, the user may manipulate the sample size drawn from each population.&lt;/p&gt;
+&lt;p&gt;This tab also introduces the assumptions of the ANOVA test. Depending on the sample size and population data selected on the previous tab, users are told whether or not the assumptions have been met.&lt;/p&gt;
+&lt;p&gt;The random samples are displayed graphically on this tab as boxplots. Users may interact with the graph to visulaize the boxplots in full, a visual representation of the within groups variances &lt;em&gt;of the samples&lt;/em&gt;, or a visual representation of the between groups variance &lt;em&gt;of the samples&lt;/em&gt;. The relevance of these variances are explored further during the next step.&lt;/p&gt;
+&lt;h2 id=&#34;step-3&#34;&gt;&lt;strong&gt;Step 3&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;The Step 3 tab is concerned with reviewing the conclusion made by the ANOVA test on the population data selected by users during Step 1. Before receiving the conclusion, users are reminded of the hypotheses examined by ANOVA.&lt;/p&gt;
+&lt;p&gt;Under the &amp;ldquo;What is the F-statistic&amp;rdquo; section users are introduced to the F-stat, its relationship to the within groups and between groups variances visualized on the &amp;ldquo;Step 2&amp;rdquo; tab, and how it is used by ANOVA to reach the conclusion. Once again, the random samples from Step 2, are displayed graphically as boxplots for reference.&lt;/p&gt;
+&lt;p&gt;Finally, the conclusion of the ANOVA test is presented. It is put in terms of the hypotheses users have examined, but users are also provided with a copy of the ANOVA test output they would expect were they to conduct the same test using the R programming language.&lt;/p&gt;
+&lt;h2 id=&#34;resources-page&#34;&gt;Resources Page&lt;/h2&gt;
+&lt;p&gt;This next tab provids users with a copy of some equations relevant to ANOVA. This page also gives more insight into how to interpret the ANVOA test output from R encountered during Step 3.&lt;/p&gt;
+&lt;h2 id=&#34;assesment-page&#34;&gt;Assesment Page&lt;/h2&gt;
+&lt;p&gt;This final tab provides a short quiz for users to practice running an ANOVA test in R snd review some of the concepts touched on throughout the app.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;The Exploring ANOVA app was created by Samantha Owusu-Antwi for Duke University&amp;rsquo;s Creating Interactive Learning Tools Project, Summer 2020.&lt;/em&gt;&lt;/p&gt;
 </description>
     </item>
     

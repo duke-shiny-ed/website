@@ -32,6 +32,11 @@ The "Step 3" tab is concerned with reviewing the conclusion made by the ANOVA te
 Finally, the conclusion of the ANOVA test performed on the population data identified during Step 1 is highlighted. The conclusion is put in terms of the hypotheses (present on the Step 1 and Step 3 tabs), and users are also provided with a copy of the ANOVA test output you would expect when using the R programming language to conduct the same ANOVA test.
 
 
+The next tab, titled "Resources", provided users with a copy of the equations relevant to ANOVA. Knowledge of these equations was not necessary in order to complete steps one through three. This page also gives more insight into how to interpret the R ANVOA test output seen on the Step 3 tab.
+
+The final tab provides a short quiz for users to use to practice ANOVA concepts.
+
+
 
 
 

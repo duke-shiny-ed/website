@@ -39,8 +39,8 @@ Finally, the conclusion of the ANOVA test is presented. It is put in terms of th
 ## Resources Page
 This next tab provids users with a copy of some equations relevant to ANOVA. This page also gives more insight into how to interpret the ANVOA test output from R encountered during Step 3.
 
-## Assesment Page
-This final tab provides a short quiz for users to practice running an ANOVA test in R snd review some of the concepts touched on throughout the app.
+## Quiz Page
+This final tab provides a short assessment for users to practice running an ANOVA test in R snd review some of the concepts touched on throughout the app.
 
 ---
 *The Exploring ANOVA app was created by Samantha Owusu-Antwi for Duke University's Creating Interactive Learning Tools Project, Summer 2020.*

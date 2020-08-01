@@ -51,8 +51,8 @@
 &lt;p&gt;Finally, the conclusion of the ANOVA test is presented. It is put in terms of the hypotheses users have examined, but users are also provided with a copy of the ANOVA test output they would expect were they to conduct the same test using the R programming language.&lt;/p&gt;
 &lt;h2 id=&#34;resources-page&#34;&gt;Resources Page&lt;/h2&gt;
 &lt;p&gt;This next tab provids users with a copy of some equations relevant to ANOVA. This page also gives more insight into how to interpret the ANVOA test output from R encountered during Step 3.&lt;/p&gt;
-&lt;h2 id=&#34;assesment-page&#34;&gt;Assesment Page&lt;/h2&gt;
-&lt;p&gt;This final tab provides a short quiz for users to practice running an ANOVA test in R snd review some of the concepts touched on throughout the app.&lt;/p&gt;
+&lt;h2 id=&#34;quiz-page&#34;&gt;Quiz Page&lt;/h2&gt;
+&lt;p&gt;This final tab provides a short assessment for users to practice running an ANOVA test in R snd review some of the concepts touched on throughout the app.&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;em&gt;The Exploring ANOVA app was created by Samantha Owusu-Antwi for Duke University&amp;rsquo;s Creating Interactive Learning Tools Project, Summer 2020.&lt;/em&gt;&lt;/p&gt;
 </description>

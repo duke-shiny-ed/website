@@ -7,19 +7,31 @@ links:
   icon_pack: fab
   name: See the app!
   url: https://twitter.com/georgecushen
-summary: An example of using the in-built project page.
+summary: Learn more about the ANOVA test process including which assumptions the test makes and the meaning behind the test conclusion.
 tags:
 - regression
-title: Internal Project
+title: Exlporing ANOVA (Analysis of Variance)
 url_code: "github.com/duke-shiny-ed"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+This app utilizes a series of tabs to guide the user through a step-by-step exploration of the ANOVA test.
 
-Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.
+The first tab, the About Page, introduces the learning objectives the app seeks to address and offers a brief introduction to ANOVA. In the following three tabs the user will have the opportunity to conduct their very own ANOVA test.
 
-Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.
+STEP 1
+The next tab, title "Step 1", kicks off the ANOVA testing process. Here the user is introduced to the null and alternative hypotheses of the ANOVA test. The user can then manipulate the population datasets that will be used for the rest of the exploration. From there the user can progress to the next tab, "Step 2".
 
-Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.
+STEP 2
+On the "Step 2" tab random samples have been taken from the population data identified by the user on the previous ("Step 1") tab. Here, users can manipulate the size of the samples drawn from each population. This tab also introduces that assumptions of the ANOVA test, and users are told whether or not these assumptions have been met and why under "ANOVA Assumptions" section. This is dependent on the user's manipualtion of the population data during "Step 1" and their manipulation of the sample size.
 
-Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.
+The random samples are displayed graphically on this tab as boxplots. Users may interact with the graph to visulaize the boxplots in full, a visual representation of the within groups variances of the samples, or a visual representation of the between groups variance of the samples. The relevance of these are explored further on the next tab, "Step 3".
+
+STEP 3
+The "Step 3" tab is concerned with reviewing the conclusion made by the ANOVA test regarding the population data identitfied by the user on the "Step 1" tab. Before receiving the conclusion, users are reminded of the hypotheses tested by ANOVA. Once again, the random samples from Step 2, whose variances are being analyzed by the ANOVA test on this tab, are displayed graphically as boxplots. Under the "What is the F-statistic" section users are introduced to the F-stat, its relationship to the within groups and between groups variances visualized on the "Step 2" tab, and how it will be used by ANOVA to reach the conclusion. 
+
+Finally, the conclusion of the ANOVA test performed on the population data identified during Step 1 is highlighted. The conclusion is put in terms of the hypotheses (present on the Step 1 and Step 3 tabs), and users are also provided with a copy of the ANOVA test output you would expect when using the R programming language to conduct the same ANOVA test.
+
+
+
+
+

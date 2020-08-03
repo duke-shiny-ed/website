@@ -18,7 +18,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/project/anova/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
-&lt;p&gt;In this particular app you will be able to explore ANOVA, or Analysis of Variance. ANOVA is a method used in statistical anylsis to question whether there is a meaningful difference between groups being studied. &lt;em&gt;To acces the Exploring ANOVA app click 
+&lt;p&gt;In this particular app you will be able to explore ANOVA, or Analysis of Variance. ANOVA is a method used in statistical analysis to question whether there is a meaningful difference between groups being studied. &lt;em&gt;To access the Exploring ANOVA app click 
 &lt;a href=&#34;https://samanthaowusu.shinyapps.io/ANOVA-app/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;See the app!&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Learning Goals:&lt;/p&gt;
 &lt;ol&gt;
@@ -37,11 +37,11 @@
 &lt;h3 id=&#34;about-page&#34;&gt;&lt;strong&gt;About Page&lt;/strong&gt;&lt;/h3&gt;
 &lt;p&gt;This first tab introduces the learning objectives the app seeks to address and offers a brief introduction to ANOVA. In the following three tabs users are given the opportunity to conduct their very own ANOVA test.&lt;/p&gt;
 &lt;h3 id=&#34;step-1-identifying-the-population&#34;&gt;&lt;strong&gt;Step 1: Identifying the Population&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;The next tab, titled &amp;ldquo;Step 1&amp;rdquo;, kicks off the ANOVA testing process. Here users are introduced to the null and alternative hypotheses of ANOVA. They may then choose the population data that will be used for the rest of the exploration by interacting with the various manipulators present. Once satisfied with their choices users may progress to the next step.&lt;/p&gt;
+&lt;p&gt;The next tab, titled &amp;ldquo;Step 1&amp;rdquo;, kicks off the ANOVA testing process. Here, users are introduced to the null and alternative hypotheses of ANOVA. They may then choose the population data that will be used for the rest of the exploration by interacting with the various manipulators present. Once satisfied with their choices users may progress to the next step.&lt;/p&gt;
 &lt;h3 id=&#34;step-2-draw-the-samples&#34;&gt;&lt;strong&gt;Step 2: Draw the Samples&lt;/strong&gt;&lt;/h3&gt;
 &lt;p&gt;On the Step 2 tab, random samples have been taken from the population data chosen during Step 1. Here, the user may manipulate the sample size drawn from each population.&lt;/p&gt;
 &lt;p&gt;This tab also introduces the assumptions of the ANOVA test. Depending on the sample size and population data selected on the previous tab, users are told whether or not the assumptions have been met.&lt;/p&gt;
-&lt;p&gt;The random samples are displayed graphically on this tab as boxplots. Users may interact with the graph to visulaize the boxplots in full, a visual representation of the within groups variances &lt;em&gt;of the samples&lt;/em&gt;, or a visual representation of the between groups variance &lt;em&gt;of the samples&lt;/em&gt;. The relevance of these variances are explored further during the next step.&lt;/p&gt;
+&lt;p&gt;The random samples are displayed graphically on this tab as boxplots. Users may interact with the graph to visualize the boxplots in full, a visual representation of the within groups variances &lt;em&gt;of the samples&lt;/em&gt;, or a visual representation of the between groups variance &lt;em&gt;of the samples&lt;/em&gt;. The relevance of these variances are explored further during the next step.&lt;/p&gt;
 &lt;h3 id=&#34;step-3-anova-test&#34;&gt;&lt;strong&gt;Step 3: ANOVA Test&lt;/strong&gt;&lt;/h3&gt;
 &lt;p&gt;The Step 3 tab is concerned with reviewing the conclusion made by the ANOVA test on the population data selected by users during Step 1. Before receiving the conclusion, users are reminded of the hypotheses examined by ANOVA.&lt;/p&gt;
 &lt;p&gt;Under the &amp;ldquo;What is the F-statistic&amp;rdquo; section users are introduced to the F-stat, its relationship to the within groups and between groups variances visualized on the &amp;ldquo;Step 2&amp;rdquo; tab, and how it is used by ANOVA to reach the conclusion. Once again, the random samples from Step 2, are displayed graphically as boxplots for reference.&lt;/p&gt;
@@ -49,10 +49,9 @@
 &lt;h3 id=&#34;step-4-quiz&#34;&gt;&lt;strong&gt;Step 4: Quiz&lt;/strong&gt;&lt;/h3&gt;
 &lt;p&gt;This final tab provides a short assessment for users to practice running an ANOVA test in R snd review some of the concepts touched on throughout the app.&lt;/p&gt;
 &lt;h3 id=&#34;resources-page&#34;&gt;&lt;strong&gt;Resources Page&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;This next tab provids users with a copy of some equations relevant to ANOVA. This page also gives more insight into how to interpret the ANVOA test output from R encountered during Step 3.&lt;/p&gt;
+&lt;p&gt;This next tab provides users with a copy of some equations relevant to ANOVA. This page also gives more insight into how to interpret the ANVOA test output from R encountered during Step 3.&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;&lt;em&gt;This app was developed by 
-&lt;a href=&#34;https://...&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Samantha Owusu-Antwi&lt;/a&gt; as part of the Summer 2020 Duke Shiny Ed program.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;This app was developed by Samantha Owusu-Antwi as part of the Summer 2020 Duke Shiny Ed program.&lt;/em&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -62,13 +61,28 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/project/regression-outliers/</guid>
       <description>&lt;h3 id=&#34;to-start-click-on-see-the-app-above&#34;&gt;To start, click on &amp;lsquo;See the app!&amp;rsquo; above:&lt;/h3&gt;
-&lt;p&gt;Outliers are not an easy topic to learn, but we&amp;rsquo;ll keep it simple here—we promise. In this app, you will learn three painless measurement methods to spot outliers and solutions for outliers in our models.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;1. Identify Outliers:&lt;/strong&gt; Click on the checkboxes to include and exclude outliers from the model. See how the regression line and coefficients change. Answer the multiple choice question to see if you&amp;rsquo;ve learned what you were meant to.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;2. Measure Outliers:&lt;/strong&gt; Click on each of the three measures to see easy-to-understand definitions and formulas. Then, look at the corresponding graphs to identify which observations are outliers.&lt;/p&gt;
+&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Outliers are not an easy topic to learn, but we&amp;rsquo;ll keep it simple here—we promise. In this app, you will learn:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Three painless measurement methods to spot outliers&lt;/li&gt;
+&lt;li&gt;When it is acceptable to remove an outlier from your regression model&lt;/li&gt;
+&lt;li&gt;Alternative solutions for dealing with outliers&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;instructions&#34;&gt;Instructions&lt;/h2&gt;
+&lt;h3 id=&#34;1-identify-outliers&#34;&gt;1. Identify Outliers&lt;/h3&gt;
+&lt;p&gt;Click on the checkboxes to include and exclude outliers from the model. See how the regression line and coefficients change. Answer the multiple choice question to see if you&amp;rsquo;ve learned what you were meant to.&lt;/p&gt;
+&lt;h3 id=&#34;2-measure-outliers&#34;&gt;2. Measure Outliers&lt;/h3&gt;
+&lt;p&gt;Click on each of the three measures to see easy-to-understand definitions and formulas. Then, look at the corresponding graphs to identify which observations are outliers.&lt;/p&gt;
 &lt;p&gt;Check your work by clicking on &amp;lsquo;Show true outliers&amp;rsquo; at the bottom of the page.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;3. Solutions for Outliers:&lt;/strong&gt; Now you know how to find outliers, but what should you do with them? Click on the checkboxes to find the correct answers. Remember — there is more than one correct solution, and some are better than others!&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;4. Quiz:&lt;/strong&gt; Reinforce your knowledge of outliers with a quick 5-question quiz. All multiple choice, don&amp;rsquo;t worry.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;5. Resources:&lt;/strong&gt; Want to learn more about outliers? Try one of these other tutorials, ranging from beginner to pro.&lt;/p&gt;
+&lt;h3 id=&#34;3-solutions-for-outliers&#34;&gt;3. Solutions for Outliers&lt;/h3&gt;
+&lt;p&gt;Now you know how to find outliers, but what should you do with them? Click on the checkboxes to find the correct answers. Remember — there is more than one correct solution, and some are better than others!&lt;/p&gt;
+&lt;h3 id=&#34;4-quiz&#34;&gt;4. Quiz&lt;/h3&gt;
+&lt;p&gt;Reinforce your knowledge of outliers with a quick 5-question quiz. All multiple choice, don&amp;rsquo;t worry.&lt;/p&gt;
+&lt;h3 id=&#34;5-resources&#34;&gt;5. Resources&lt;/h3&gt;
+&lt;p&gt;Want to learn more about outliers? Try one of these other tutorials, ranging from beginner to pro.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;This app was was developed by 
+&lt;a href=&#34;https://www.linkedin.com/in/glen-morgenstern-164b8a182/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Glen Morgenstern&lt;/a&gt; as part of the Summer 2020 Duke Shiny Ed program.&lt;/em&gt;&lt;/p&gt;
 </description>
     </item>
     

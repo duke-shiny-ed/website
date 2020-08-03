@@ -15,7 +15,7 @@ url_code: "https://github.com/duke-shiny-ed/ANOVA-app"
 ---
 
 ## Overview
-In this particular app you will be able to explore ANOVA, or Analysis of Variance. ANOVA is a method used in statistical anylsis to question whether there is a meaningful difference between groups being studied. *To acces the Exploring ANOVA app click [See the app!](https://samanthaowusu.shinyapps.io/ANOVA-app/)*
+In this particular app you will be able to explore ANOVA, or Analysis of Variance. ANOVA is a method used in statistical analysis to question whether there is a meaningful difference between groups being studied. *To access the Exploring ANOVA app click [See the app!](https://samanthaowusu.shinyapps.io/ANOVA-app/)*
 
 Learning Goals:
 1. Examine how violations of the assumptions of ANOVA affect the ANOVA test output
@@ -31,14 +31,14 @@ This app is designed to gradually introduce you to the different aspects of ANOV
 This first tab introduces the learning objectives the app seeks to address and offers a brief introduction to ANOVA. In the following three tabs users are given the opportunity to conduct their very own ANOVA test.
 
 ### **Step 1: Identifying the Population**
-The next tab, titled "Step 1", kicks off the ANOVA testing process. Here users are introduced to the null and alternative hypotheses of ANOVA. They may then choose the population data that will be used for the rest of the exploration by interacting with the various manipulators present. Once satisfied with their choices users may progress to the next step.
+The next tab, titled "Step 1", kicks off the ANOVA testing process. Here, users are introduced to the null and alternative hypotheses of ANOVA. They may then choose the population data that will be used for the rest of the exploration by interacting with the various manipulators present. Once satisfied with their choices users may progress to the next step.
 
 ### **Step 2: Draw the Samples**
 On the Step 2 tab, random samples have been taken from the population data chosen during Step 1. Here, the user may manipulate the sample size drawn from each population. 
 
 This tab also introduces the assumptions of the ANOVA test. Depending on the sample size and population data selected on the previous tab, users are told whether or not the assumptions have been met.
 
-The random samples are displayed graphically on this tab as boxplots. Users may interact with the graph to visulaize the boxplots in full, a visual representation of the within groups variances *of the samples*, or a visual representation of the between groups variance *of the samples*. The relevance of these variances are explored further during the next step.
+The random samples are displayed graphically on this tab as boxplots. Users may interact with the graph to visualize the boxplots in full, a visual representation of the within groups variances *of the samples*, or a visual representation of the between groups variance *of the samples*. The relevance of these variances are explored further during the next step.
 
 ### **Step 3: ANOVA Test**
 The Step 3 tab is concerned with reviewing the conclusion made by the ANOVA test on the population data selected by users during Step 1. Before receiving the conclusion, users are reminded of the hypotheses examined by ANOVA. 
@@ -51,10 +51,10 @@ Finally, the conclusion of the ANOVA test is presented. It is put in terms of th
 This final tab provides a short assessment for users to practice running an ANOVA test in R snd review some of the concepts touched on throughout the app.
 
 ### **Resources Page**
-This next tab provids users with a copy of some equations relevant to ANOVA. This page also gives more insight into how to interpret the ANVOA test output from R encountered during Step 3.
+This next tab provides users with a copy of some equations relevant to ANOVA. This page also gives more insight into how to interpret the ANVOA test output from R encountered during Step 3.
 
 ---
-*This app was developed by [Samantha Owusu-Antwi](https://...) as part of the Summer 2020 Duke Shiny Ed program.*
+*This app was developed by Samantha Owusu-Antwi as part of the Summer 2020 Duke Shiny Ed program.*
 
 
 

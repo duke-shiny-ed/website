@@ -51,7 +51,7 @@
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id=&#34;instructions&#34;&gt;Instructions&lt;/h2&gt;
-&lt;p&gt;This app is designed to gradually introduce you to the different aspects of ANOVA. To do this, the app utilizes a series of tabs. Interact with them in order, from left to right, to be guided through a step-by-step exploration of the ANOVA test.&lt;/p&gt;
+&lt;p&gt;This app is designed to gradually introduce you to the different aspects of ANOVA. To do this, the app utilizes a series of tabs. Interact with them in order, from left to right, to be guided through a step-by-step exploration of the ANOVA test. &lt;em&gt;The app is optimally viewed in full screen web browser.&lt;/em&gt;&lt;/p&gt;
 &lt;h3 id=&#34;about-page&#34;&gt;&lt;strong&gt;About Page&lt;/strong&gt;&lt;/h3&gt;
 &lt;p&gt;This first tab introduces the learning objectives the app seeks to address and offers a brief introduction to ANOVA. In the following three tabs users are given the opportunity to conduct their very own ANOVA test.&lt;/p&gt;
 &lt;h3 id=&#34;step-1-identifying-the-population&#34;&gt;&lt;strong&gt;Step 1: Identifying the Population&lt;/strong&gt;&lt;/h3&gt;

@@ -25,7 +25,7 @@ Learning Goals:
 3. Predict how manipulation of between and within group variances will affect the F-statistic and the ANOVA test output
 
 ## Instructions
-This app is designed to gradually introduce you to the different aspects of ANOVA. To do this, the app utilizes a series of tabs. Interact with them in order, from left to right, to be guided through a step-by-step exploration of the ANOVA test.
+This app is designed to gradually introduce you to the different aspects of ANOVA. To do this, the app utilizes a series of tabs. Interact with them in order, from left to right, to be guided through a step-by-step exploration of the ANOVA test. *The app is optimally viewed in full screen web browser.*
 
 ### **About Page**
 This first tab introduces the learning objectives the app seeks to address and offers a brief introduction to ANOVA. In the following three tabs users are given the opportunity to conduct their very own ANOVA test.

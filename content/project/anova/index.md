@@ -3,7 +3,7 @@ image:
   caption: Screen shot of Exploring ANOVA app
   focal_point: Smart
 links:
-- icon: share
+- icon: atom
   icon_pack: fa
   name: See the app!
   url: https://samanthaowusu.shinyapps.io/ANOVA-app/
@@ -11,7 +11,7 @@ summary: Learn more about the ANOVA test process including which assumptions the
 tags:
 - regression
 title: Exploring ANOVA (Analysis of Variance)
-url_code: "github.com/duke-shiny-ed"
+url_code: "https://github.com/duke-shiny-ed/ANOVA-app"
 ---
 
 *This app utilizes a series of tabs to guide the user through a step-by-step exploration of the ANOVA test. To acces the Exploring ANOVA app click [See the app!](https://samanthaowusu.shinyapps.io/ANOVA-app/)*

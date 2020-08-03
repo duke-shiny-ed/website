@@ -3,15 +3,14 @@ image:
   caption: Screen shot of my app
   focal_point: Smart
 links:
-- icon: twitter
-  icon_pack: fab
+- icon: atom
+  icon_pack: fas
   name: See the app!
-  url: https://twitter.com/georgecushen
-summary: An example of using the in-built project page.
-tags:
+  url: https://choojoe.shinyapps.io/logreg_roc/
+summary: Learn the basics of logistic regression: when is it used and what does the model look like. Explore the effects of changing the threshold on the Confusion Matrix and ROC Curves in context of logistic regression.
 - regression
-title: Internal Project
-url_code: "github.com/duke-shiny-ed"
+title: Logistic Regression and ROC Curves
+url_code: "https://github.com/duke-shiny-ed/ROCCurves"
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.

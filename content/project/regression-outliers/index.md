@@ -22,6 +22,7 @@ Outliers are not an easy topic to learn, but we'll keep it simple here—we prom
 - When it is acceptable to remove an outlier from your regression model
 - Alternative solutions for dealing with outliers
 
+
 ## Instructions
 
 ### 1. Identify Outliers

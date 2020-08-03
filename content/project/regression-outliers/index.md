@@ -20,7 +20,7 @@ url_code: "https://github.com/duke-shiny-ed/OutlierApp"
 Outliers are not an easy topic to learn, but we'll keep it simple here—we promise. In this app, you will learn three painless measurement methods to spot outliers and solutions for outliers in our models.
 
 
-**1. Identify Outliers:** Click on the checkboxes to include and exclude outliers from the model. See how the regression line and coefficients change.
+**1. Identify Outliers:** Click on the checkboxes to include and exclude outliers from the model. See how the regression line and coefficients change. Answer the multiple choice question to see if you've learned what you were meant to.
 
 **2. Measure Outliers:** Click on each of the three measures to see easy-to-understand definitions and formulas. Then, look at the corresponding graphs to identify which observations are outliers.
 

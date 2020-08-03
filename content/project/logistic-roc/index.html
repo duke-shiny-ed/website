@@ -11,7 +11,7 @@
 
 
 
-<title>How to Find and Deal with Outliers</title>
+<title>Logistic Regression and ROC Curves</title>
 
 <script>// Pandoc 2.9 adds attributes on both header and div. We remove the former (to
 // be compatible with the behavior of Pandoc < 2.8).
@@ -374,47 +374,66 @@ summary {
 
 
 
-<h1 class="title toc-ignore">How to Find and Deal with Outliers</h1>
+<h1 class="title toc-ignore">Logistic Regression and ROC Curves</h1>
 
 </div>
 
 
-<div id="to-start-click-on-see-the-app-above" class="section level3">
-<h3>To start, click on ‘See the app!’ above:</h3>
-</div>
 <div id="overview" class="section level2">
 <h2>Overview</h2>
-<p>Outliers are not an easy topic to learn, but we’ll keep it simple here—we promise. In this app, you will learn:</p>
+<p>In regression analysis, logistic regression is an important statistical model that can help model/predict binary dependent variables. An important step in creating logistic regression models is choosing the appropriate threshold, which is done through the ROC Curve.</p>
+<p>In this app you will:</p>
 <ul>
-<li>Three painless measurement methods to spot outliers</li>
-<li>When it is acceptable to remove an outlier from your regression model</li>
-<li>Alternative solutions for dealing with outliers</li>
+<li>Identify the function of logistic regression*</li>
+<li>Select and understand ROC/AUC curves in logistic regression models</li>
+<li>Interpret a confusion matrix</li>
 </ul>
 </div>
-<div id="instructions" class="section level2">
-<h2>Instructions</h2>
-<div id="identify-outliers" class="section level3">
-<h3>1. Identify Outliers</h3>
-<p>Click on the checkboxes to include and exclude outliers from the model. See how the regression line and coefficients change. Answer the multiple choice question to see if you’ve learned what you were meant to.</p>
+<div id="app-walkthrough" class="section level2">
+<h2>App Walkthrough</h2>
+<p>The Logistic Regression and ROC Curves App is best experienced through sequentially following the tabs on the left side bar, and from left to right within tabs that have that capability (‘Logistic Regression’ and ‘ROC Curve’ tabs)</p>
+<div id="welcome-tab" class="section level3">
+<h3>Welcome Tab</h3>
+<ul>
+<li>Overview of the app with learning objectives</li>
+<li>Quick description of the dataset being used</li>
+</ul>
 </div>
-<div id="measure-outliers" class="section level3">
-<h3>2. Measure Outliers</h3>
-<p>Click on each of the three measures to see easy-to-understand definitions and formulas. Then, look at the corresponding graphs to identify which observations are outliers.</p>
-<p>Check your work by clicking on ‘Show true outliers’ at the bottom of the page.</p>
+<div id="logistic-regression" class="section level3">
+<h3>Logistic Regression</h3>
+<ul>
+<li>The Logistic Regression Tab is made up of: Info, Data, and Model sub-tabs</li>
+<li>Info: First introduction to logistic regression, the situation one would use it in, and basic discussion of the output. The data is a bit more specified and you can see more in the..</li>
+<li>Data: Scroll through entries in a table view; but you can see this put on a graph with the model in the…</li>
+<li>Model: Observe see the data points from the previous tab in a graph with balance on the x axis and if the observation was default (1) or not default (0). Toggle the checkbox to see how the logistic model with a threshold of .5 categorizes the observation. Which observations are correctly predicted? How can you tell?</li>
+</ul>
 </div>
-<div id="solutions-for-outliers" class="section level3">
-<h3>3. Solutions for Outliers</h3>
-<p>Now you know how to find outliers, but what should you do with them? Click on the checkboxes to find the correct answers. Remember — there is more than one correct solution, and some are better than others!</p>
+<div id="roc-curve" class="section level3">
+<h3>ROC Curve</h3>
+<ul>
+<li>What is ROC: This tab serves as an overview for the elements of an ROC Curve including axes and AUC. Notice where the threshold of .5 (which was used previously) is on the ROC Curve. Go to the next tab to see how the threshold from the model graph relates to the ROC Curve graph.</li>
+<li>Interaction: Scroll manually on the Threshold bar to change where the threshold lies on the model. Remember from the Logistic Regression tab how this determines the way the model predicts outcomes. See these predicted outcomes in real time with the confusion matrix on the bottom and how accurate the model is with the table on the right. You can also click the small green arrow on the Threshold button to animate the change of threshold and how it affects the confusion matrix and points on the ROC Curve!</li>
+</ul>
+</div>
+<div id="confusion-matrix" class="section level3">
+<h3>Confusion Matrix</h3>
+<ul>
+<li>Now what does the confusion matrix actually show?</li>
+<li>See both the text definitions and the data points related to each types of predictions. These data points are dependent on the interaction from the previous tab! Play with different thresholds in the previous tab and notice how it affects different calculations related to the strength of the model including: accuracy, misclassification, sensitivity, and specificity. Use the buttons on the bottom to see how these values are calculated! Also notice trends between the ROC Curve and the rest of the table of values on this tab.</li>
+</ul>
 </div>
 <div id="quiz" class="section level3">
-<h3>4. Quiz</h3>
-<p>Reinforce your knowledge of outliers with a quick 5-question quiz. All multiple choice, don’t worry.</p>
+<h3>Quiz</h3>
+<ul>
+<li>Review your new knowledge with this multiple choice quiz! You can redo each question after submitting an answer individually.</li>
+</ul>
 </div>
-<div id="resources" class="section level3">
-<h3>5. Resources</h3>
-<p>Want to learn more about outliers? Try one of these other tutorials, ranging from beginner to pro.</p>
-<hr />
-<p><em>This app was was developed by <a href="https://www.linkedin.com/in/glen-morgenstern-164b8a182/">Glen Morgenstern</a> as part of the Summer 2020 Duke Shiny Ed program.</em></p>
+<div id="glossaryresources" class="section level3">
+<h3>Glossary/Resources</h3>
+<ul>
+<li>Glossary: A good reference of all the definitions from key vocab in this app. Refer back and forth between these definitions and the parts of the app or concepts you have found confusing.</li>
+<li>Resources: Need more info? check out the video that inspired this app! There is also the link to the code for an additional technical resource.</li>
+</ul>
 </div>
 </div>
 

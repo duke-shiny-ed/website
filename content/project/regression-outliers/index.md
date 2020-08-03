@@ -18,6 +18,7 @@ url_code: "https://github.com/duke-shiny-ed/OutlierApp"
 
 ## Overview
 Outliers are not an easy topic to learn, but we'll keep it simple here—we promise. In this app, you will learn:
+
 - Three painless measurement methods to spot outliers
 - When it is acceptable to remove an outlier from your regression model
 - Alternative solutions for dealing with outliers

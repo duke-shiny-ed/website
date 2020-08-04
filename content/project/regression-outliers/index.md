@@ -1,6 +1,6 @@
 ---
 image:
-  caption: Outlier tutorial
+  caption:
   focal_point: Smart
 links:
 - icon: atom

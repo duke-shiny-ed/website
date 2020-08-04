@@ -38,13 +38,13 @@ The Logistic Regression and ROC Curves App is best experienced through sequentia
 ### Step 2: Logistic Regression
   - *Info*: First introduction to logistic regression, the situation one would use it in, and basic discussion of the output. 
   - *Data*: Scroll through entries in a table view!
-  - *Model*: Observe see the data points from the previous tab in a graph with balance on the x axis and if the observation was default (1) or not default (0). Toggle the checkbox to see how the logistic model with a threshold of .5 categorizes the observation. Which observations are correctly predicted? How can you tell?
+  - *Model*: Observe the data points from the previous tab in a graph with balance on the x axis and if the observation was default (1) or not default (0). Toggle the checkbox to see how the logistic model with a threshold of .5 categorizes the observation. Which observations are correctly predicted? How can you tell?
   
 ### Step 3: ROC Curve
   - *What is ROC*: This tab serves as an overview for the elements of an ROC Curve including axes and AUC. Notice where the threshold of .5 (which was used previously) is on the ROC Curve. Go to the next tab to see how the threshold from the model graph relates to the ROC Curve graph.
-  - *Interaction*: Scroll manually on the Threshold bar to change where the threshold lies on the model.See these predicted outcomes in real time with the confusion matrix on the bottom and how accurate the model is with the table on the right. You can also click the small green arrow on the Threshold button to animate the change of threshold and how it affects the confusion matrix and points on the ROC Curve!
+  - *Interaction*: Scroll manually on the Threshold bar to change where the threshold lies on the model. See these predicted outcomes in real time with the confusion matrix on the bottom and how accurate the model is with the table on the right. You can also click the small green arrow on the Threshold button to animate the change of threshold and how it affects the confusion matrix and points on the ROC Curve!
   
-### Step 4: Confusion Matrix
+### Step 4: Confusion Matrix 
   - Now what does the confusion matrix actually show?
   - See both the text definitions and the data points related to each types of predictions. Play with different thresholds in the previous tab and notice how it affects different calculations related to the strength of the model including: accuracy, misclassification, sensitivity, and specificity. Use the buttons on the bottom to see how these values are calculated! Also notice trends between the ROC Curve and the rest of the table of values on this tab.
   

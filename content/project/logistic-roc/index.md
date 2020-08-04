@@ -16,7 +16,7 @@ url_code: "https://github.com/duke-shiny-ed/ROCCurves"
 
 ## Overview
 
-*For best view, please use Google Chrome with maximum width!*
+**For best view, please use Google Chrome with maximum width!**
 
 In regression analysis, logistic regression is an important statistical model that can help model/predict binary dependent variables. An important step in creating logistic regression models is choosing the appropriate threshold, which is done through the ROC Curve. 
 
@@ -36,13 +36,13 @@ The Logistic Regression and ROC Curves App is best experienced through sequentia
   - Quick description of the dataset being used 
 
 ### Step 2: Logistic Regression
-  - *Info*: First introduction to logistic regression, the situation one would use it in, and basic discussion of the output. 
-  - *Data*: Scroll through entries in a table view!
-  - *Model*: Observe the data points from the previous tab in a graph with balance on the x axis and if the observation was default (1) or not default (0). Toggle the checkbox to see how the logistic model with a threshold of .5 categorizes the observation. Which observations are correctly predicted? How can you tell?
+  - **Info**: First introduction to logistic regression, the situation one would use it in, and basic discussion of the output. 
+  - **Data**: Scroll through entries in a table view!
+  - **Model**: Observe the data points from the previous tab in a graph with balance on the x axis and if the observation was default (1) or not default (0). Toggle the checkbox to see how the logistic model with a threshold of .5 categorizes the observation. Which observations are correctly predicted? How can you tell?
   
 ### Step 3: ROC Curve
-  - *What is ROC*: This tab serves as an overview for the elements of an ROC Curve including axes and AUC. Notice where the threshold of .5 (which was used previously) is on the ROC Curve. Go to the next tab to see how the threshold from the model graph relates to the ROC Curve graph.
-  - *Interaction*: Scroll manually on the Threshold bar to change where the threshold lies on the model. See these predicted outcomes in real time with the confusion matrix on the bottom and how accurate the model is with the table on the right. You can also click the small green arrow on the Threshold button to animate the change of threshold and how it affects the confusion matrix and points on the ROC Curve!
+  - **What is ROC**: This tab serves as an overview for the elements of an ROC Curve including axes and AUC. Notice where the threshold of .5 (which was used previously) is on the ROC Curve. Go to the next tab to see how the threshold from the model graph relates to the ROC Curve graph.
+  - **Interaction**: Scroll manually on the Threshold bar to change where the threshold lies on the model. See these predicted outcomes in real time with the confusion matrix on the bottom and how accurate the model is with the table on the right. You can also click the small green arrow on the Threshold button to animate the change of threshold and how it affects the confusion matrix and points on the ROC Curve!
   
 ### Step 4: Confusion Matrix 
   - Now what does the confusion matrix actually show?
@@ -52,8 +52,8 @@ The Logistic Regression and ROC Curves App is best experienced through sequentia
   - Review your new knowledge with this multiple choice quiz! You can redo each question after submitting an answer individually.
   
 ### Step 6: Glossary/Resources
-  - *Glossary*: A good reference of all the definitions from key vocab in this app. Refer back and forth between these definitions and the parts of the app or concepts you have found confusing.
-  - *Resources*: Need more info? Check out the video that inspired this app! There is also a link to the code for the R Shiny app as a resource.
+  - **Glossary**: A good reference of all the definitions from key vocab in this app. Refer back and forth between these definitions and the parts of the app or concepts you have found confusing.
+  - **Resources**: Need more info? Check out the video that inspired this app! There is also a link to the code for the R Shiny app as a resource.
   
 ---
 *The Logistic Regression and ROC Curves app was created by [Joe Choo](https://www.linkedin.com/in/joe-choo/) as part of the Summer 2020 Duke Shiny Ed Program.*

@@ -14,7 +14,7 @@ title: How to Find and Deal with Outliers
 url_code: "https://github.com/duke-shiny-ed/OutlierApp"
 ---
 
-### To start, click on 'See the app!' above:
+#### To start, click on 'See the app!' above:
 
 ## Overview
 Outliers are not an easy topic to learn, but we'll keep it simple here—we promise. In this app, you will learn:
@@ -32,7 +32,7 @@ Click on the checkboxes to include and exclude outliers from the model. See how 
 ### 2. Measure Outliers
 Click on each of the three measures to see easy-to-understand definitions and formulas. Then, look at the corresponding graphs to identify which observations are outliers.
 
-Check your work by clicking on 'Show true outliers' at the bottom of the page.
+Check your work by looking for labels on the graphs.
 
 ### 3. Solutions for Outliers
 Now you know how to find outliers, but what should you do with them? Click on the checkboxes to find the correct answers. Remember — there is more than one correct solution, and some are better than others!

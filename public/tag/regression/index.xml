@@ -92,46 +92,49 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/project/logistic-roc/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;For best view, please use Google Chrome with maximum width!&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;In regression analysis, logistic regression is an important statistical model that can help model/predict binary dependent variables. An important step in creating logistic regression models is choosing the appropriate threshold, which is done through the ROC Curve.&lt;/p&gt;
 &lt;p&gt;In this app you will:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Identify the function of logistic regression*&lt;/li&gt;
+&lt;li&gt;Identify the function of logistic regression&lt;/li&gt;
 &lt;li&gt;Select and understand ROC/AUC curves in logistic regression models&lt;/li&gt;
 &lt;li&gt;Interpret a confusion matrix&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;app-walkthrough&#34;&gt;App Walkthrough&lt;/h2&gt;
-&lt;p&gt;The Logistic Regression and ROC Curves App is best experienced through sequentially following the tabs on the left side bar, and from left to right within tabs that have that capability (&amp;lsquo;Logistic Regression&amp;rsquo; and &amp;lsquo;ROC Curve&amp;rsquo; tabs)&lt;/p&gt;
-&lt;h3 id=&#34;welcome-tab&#34;&gt;Welcome Tab&lt;/h3&gt;
+&lt;h2 id=&#34;instructions&#34;&gt;Instructions&lt;/h2&gt;
+&lt;p&gt;The Logistic Regression and ROC Curves App is best experienced through sequentially following the tabs on the left side bar, and from left to right within tabs that have that capability (&amp;lsquo;Logistic Regression&amp;rsquo; and &amp;lsquo;ROC Curve&amp;rsquo; tabs).&lt;/p&gt;
+&lt;h3 id=&#34;step-1-welcome-tab&#34;&gt;Step 1: Welcome Tab&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Overview of the app with learning objectives&lt;/li&gt;
 &lt;li&gt;Quick description of the dataset being used&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;logistic-regression&#34;&gt;Logistic Regression&lt;/h3&gt;
+&lt;h3 id=&#34;step-2-logistic-regression&#34;&gt;Step 2: Logistic Regression&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;The Logistic Regression Tab is made up of: Info, Data, and Model sub-tabs&lt;/li&gt;
-&lt;li&gt;Info: First introduction to logistic regression, the situation one would use it in, and basic discussion of the output. The data is a bit more specified and you can see more in the..&lt;/li&gt;
-&lt;li&gt;Data: Scroll through entries in a table view; but you can see this put on a graph with the model in the&amp;hellip;&lt;/li&gt;
-&lt;li&gt;Model: Observe see the data points from the previous tab in a graph with balance on the x axis and if the observation was default (1) or not default (0). Toggle the checkbox to see how the logistic model with a threshold of .5 categorizes the observation. Which observations are correctly predicted? How can you tell?&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Info&lt;/strong&gt;: First introduction to logistic regression, the situation one would use it in, and basic discussion of the output.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Data&lt;/strong&gt;: Scroll through entries in a table view!&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Model&lt;/strong&gt;: Observe the data points from the previous tab in a graph with balance on the x axis and if the observation was default (1) or not default (0). Toggle the checkbox to see how the logistic model with a threshold of .5 categorizes the observation. Which observations are correctly predicted? How can you tell?&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;roc-curve&#34;&gt;ROC Curve&lt;/h3&gt;
+&lt;h3 id=&#34;step-3-roc-curve&#34;&gt;Step 3: ROC Curve&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;What is ROC: This tab serves as an overview for the elements of an ROC Curve including axes and AUC. Notice where the threshold of .5 (which was used previously) is on the ROC Curve. Go to the next tab to see how the threshold from the model graph relates to the ROC Curve graph.&lt;/li&gt;
-&lt;li&gt;Interaction: Scroll manually on the Threshold bar to change where the threshold lies on the model. Remember from the Logistic Regression tab how this determines the way the model predicts outcomes. See these predicted outcomes in real time with the confusion matrix on the bottom and how accurate the model is with the table on the right. You can also click the small green arrow on the Threshold button to animate the change of threshold and how it affects the confusion matrix and points on the ROC Curve!&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;What is ROC&lt;/strong&gt;: This tab serves as an overview for the elements of an ROC Curve including axes and AUC. Notice where the threshold of .5 (which was used previously) is on the ROC Curve. Go to the next tab to see how the threshold from the model graph relates to the ROC Curve graph.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Interaction&lt;/strong&gt;: Scroll manually on the Threshold bar to change where the threshold lies on the model. See these predicted outcomes in real time with the confusion matrix on the bottom and how accurate the model is with the table on the right. You can also click the small green arrow on the Threshold button to animate the change of threshold and how it affects the confusion matrix and points on the ROC Curve!&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;confusion-matrix&#34;&gt;Confusion Matrix&lt;/h3&gt;
+&lt;h3 id=&#34;step-4-confusion-matrix&#34;&gt;Step 4: Confusion Matrix&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Now what does the confusion matrix actually show?&lt;/li&gt;
-&lt;li&gt;See both the text definitions and the data points related to each types of predictions. These data points are dependent on the interaction from the previous tab! Play with different thresholds in the previous tab and notice how it affects different calculations related to the strength of the model including: accuracy, misclassification, sensitivity, and specificity. Use the buttons on the bottom to see how these values are calculated! Also notice trends between the ROC Curve and the rest of the table of values on this tab.&lt;/li&gt;
+&lt;li&gt;See both the text definitions and the data points related to each types of predictions. Play with different thresholds in the previous tab and notice how it affects different calculations related to the strength of the model including: accuracy, misclassification, sensitivity, and specificity. Use the buttons on the bottom to see how these values are calculated! Also notice trends between the ROC Curve and the rest of the table of values on this tab.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;quiz&#34;&gt;Quiz&lt;/h3&gt;
+&lt;h3 id=&#34;step-5-quiz&#34;&gt;Step 5: Quiz&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Review your new knowledge with this multiple choice quiz! You can redo each question after submitting an answer individually.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;glossaryresources&#34;&gt;Glossary/Resources&lt;/h3&gt;
+&lt;h3 id=&#34;step-6-glossaryresources&#34;&gt;Step 6: Glossary/Resources&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Glossary: A good reference of all the definitions from key vocab in this app. Refer back and forth between these definitions and the parts of the app or concepts you have found confusing.&lt;/li&gt;
-&lt;li&gt;Resources: Need more info? check out the video that inspired this app! There is also the link to the code for an additional technical resource.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Glossary&lt;/strong&gt;: A good reference of all the definitions from key vocab in this app. Refer back and forth between these definitions and the parts of the app or concepts you have found confusing.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Resources&lt;/strong&gt;: Need more info? Check out the video that inspired this app! There is also a link to the code for the R Shiny app as a resource.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;The Logistic Regression and ROC Curves app was created by 
+&lt;a href=&#34;https://www.linkedin.com/in/joe-choo/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Joe Choo&lt;/a&gt; as part of the Summer 2020 Duke Shiny Ed Program.&lt;/em&gt;&lt;/p&gt;
 </description>
     </item>
     

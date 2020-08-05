@@ -57,5 +57,5 @@ You can reset parameters, re-sample the data, and re-run the hypothesis test sim
 
 
 ---
-*This app was was developed by Abbey List as part of the Summer 2020 Duke Shiny Ed program.*
+*This app was developed by Abbey List as part of the Summer 2020 Duke Shiny Ed program.*
 

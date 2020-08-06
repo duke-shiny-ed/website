@@ -3,7 +3,7 @@ authors:
 
 
 organizations:
-- name: Duke University
+- name: 
   url: ""
 role: 
 social:
@@ -14,10 +14,9 @@ social:
   icon_pack: fab
   link: https://github.com/duke-shiny-ed
 superuser: true
-title: Duke ShinyEd
+title: "@ Duke University"
 user_groups:
-- Researchers
-- Visitors
+
 ---
 
 Duke ShinyEd is composed of Dr. Maria Tackett, Anupriya Sivakumar and four undergraduate students: Joe Choo, Abbey List, Glen Morgenstern, and Samantha Owusu-Antwi. In a span of 6 weeks, students utilized RShiny to develop interactive apps to help introductory statistics students acheive an in-depth understanding of critical intro statistics concepts. 

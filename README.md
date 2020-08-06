@@ -2,6 +2,8 @@
 
 Website for the Duke Shiny Ed Project
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/820421fb-e04c-4bfb-b99a-bed0bd3199c8/deploy-status)](https://app.netlify.com/sites/duke-shiny-ed/deploys)
+
 ## Info for building 
 
 - This site is made using [blogdown](https://github.com/rstudio/blogdown) and Hugo. 
@@ -49,7 +51,14 @@ Each time you save changes, the webpage will update in your browser.
 - Load the blogdown package and then type `serve_site()` in the console. This will produce a local copy of the website that you can view in RStudio or in a web browser. 
   - You only need to type `serve_site()` once. As you save your changes, the local copy of the website will automatically update. 
   - Once you are happy with your changes, push them to GitHub!
-  
+
+## Update your "Meet the Team" page
+
+- Go to *content* -> *authors* to find your folder. 
+- In your folder, update your information in the *_index.md* file. Leave the field blank if you don't want to include that info. 
+  - **Note:** Only include a link to your Twitter account if you use it as a professoinal account. Don't include links to any personal social media.
+- Add a photo to the folder. Be sure the photo is called *avatar.jpg*. (A .png should also work). 
+
 ## Resources
 
 - [blogdown](https://bookdown.org/yihui/blogdown/)

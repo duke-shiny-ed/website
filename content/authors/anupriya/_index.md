@@ -21,7 +21,7 @@ social:
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.  
 user_groups:
-- Project Manager
+- Students
 ---
 
 (Optional) If you want to add a short bio about yourself, i.e. name, major/academic interests, year in school. Otherwise delete this text. 

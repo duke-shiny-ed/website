@@ -1,22 +1,17 @@
 ---
-name: NAME
+name: Anupriya Sivakumar
 organizations:
 - name: Duke University
-  url: ""
+  url: 
 role: 
 social:
 - icon: envelope
   icon_pack: fas
-  link: "mailto:EMAIL"
+  link: "mailto:anupriyasivakumar8@gmail.com"
 - icon: home
   icon_pack: fas
-  link: 
-- icon: github
-  icon_pack: fab
-  link: 
-- icon: twitter
-  icon_pack: fab
-  link: 
+  link: https://www.linkedin.com/in/anupriya-sivakumar-as65614/
+
   
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.  
@@ -24,4 +19,4 @@ user_groups:
 - Students
 ---
 
-(Optional) If you want to add a short bio about yourself, i.e. name, major/academic interests, year in school. Otherwise delete this text. 
+Anupriya Sivakumar is currently a Cybersecurity Analyst at Fidelity Investments. She graduated from Duke in 2019 with a B.S. in Statistics and Psychology. She is passionate about data analysis, visualization, and effectively communicating data-driven insights critical to strategic business decisions.   

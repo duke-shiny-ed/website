@@ -1,7 +1,7 @@
 ---
 name: "@ Duke University"
 authors: 
-- admin
+  - admin
 social:
 - icon: envelope
   icon_pack: fas

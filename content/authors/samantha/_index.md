@@ -1,20 +1,20 @@
 ---
-name: NAME
+name: Samantha Owusu-Antwi
 organizations:
-- name: Duke University
+- name: Undergraduate student at Duke University
   url: ""
-role: 
+role:
 social:
 - icon: envelope
   icon_pack: fas
-  link: "mailto:EMAIL"
-- icon: home
+  link: "mailto:samantha.owusuantwi@duke.edu"
+- icon: 
   icon_pack: fas
   link: 
 - icon: github
   icon_pack: fab
-  link: 
-- icon: twitter
+  link: https://github.com/sowusu08
+- icon: 
   icon_pack: fab
   link: 
   
@@ -24,4 +24,4 @@ user_groups:
 - Students
 ---
 
-(Optional) If you want to add a short bio about yourself, i.e. name, major/academic interests, year in school. Otherwise delete this text. 
+Samantha is a prospective Neurosicence major and Statistics minor at Duke University. When she is not programming, Samantha enjoys listening to music, practicing photography, and playing the guitar. 

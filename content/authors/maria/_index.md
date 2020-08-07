@@ -1,5 +1,5 @@
 ---
-name: Maria Tackett
+Name: Maria Tackett
 author: 
   - maria
 organizations:

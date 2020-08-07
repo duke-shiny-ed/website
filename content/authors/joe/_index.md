@@ -1,5 +1,5 @@
 ---
-name: Joe Choo
+Name: Joe Choo
 weight: 20
 authors: 
 - joe

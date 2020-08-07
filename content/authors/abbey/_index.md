@@ -1,5 +1,5 @@
 ---
-name: Abbey List
+Name: Abbey List
 weight: 30
 organizations:
 - name: Duke University

@@ -1,5 +1,5 @@
 ---
-name: Samantha Owusu-Antwi
+Name: Samantha Owusu-Antwi
 weight: 50
 authors:
 - samantha

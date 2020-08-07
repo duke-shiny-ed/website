@@ -1,5 +1,5 @@
 ---
-name: Glen Morgenstern
+Name: Glen Morgenstern
 authors: 
   - glen
 weight: 40

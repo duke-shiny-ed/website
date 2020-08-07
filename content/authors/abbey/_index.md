@@ -1,27 +1,21 @@
 ---
-name: NAME
+name: Abbey List
 organizations:
 - name: Duke University
   url: ""
-role: 
+role: Student
 social:
 - icon: envelope
   icon_pack: fas
-  link: "mailto:EMAIL"
-- icon: home
-  icon_pack: fas
-  link: 
+  link: "mailto:abbey.list@duke.edu"
 - icon: github
   icon_pack: fab
-  link: 
-- icon: twitter
-  icon_pack: fab
-  link: 
+  link: https://github.com/grace-hub
   
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.  
 user_groups:
-- Project Manager
+- Students
 ---
 
-(Optional) If you want to add a short bio about yourself, i.e. name, major/academic interests, year in school. Otherwise delete this text. 
+Abbey List is a junior at Duke University studying Computer Science and Statistical Science with a minor in Japanese Language. She enjoys being involved with the application of computer science and statistical techniques to tasks in large data analysis, machine learning, UX design, and computational biology. 

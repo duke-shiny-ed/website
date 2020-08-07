@@ -25,6 +25,3 @@ social:
 user_groups:
 - Project Lead
 ---
-
-
-I can add text about myself. 

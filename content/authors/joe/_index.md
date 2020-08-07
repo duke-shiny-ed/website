@@ -1,12 +1,13 @@
 ---
-Name: Joe Choo
+title: Joe Choo
+name: joe
 weight: 20
 authors: 
 - joe
 organizations:
 - name: Duke University
   url: ""
-role: Student
+role: 
 social:
 - icon: envelope
   icon_pack: fas

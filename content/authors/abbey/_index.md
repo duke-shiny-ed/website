@@ -1,10 +1,11 @@
 ---
-Name: Abbey List
+title: Abbey List
+Name: abbey
 weight: 30
 organizations:
 - name: Duke University
   url: ""
-role: Student
+role: 
 social:
 - icon: envelope
   icon_pack: fas

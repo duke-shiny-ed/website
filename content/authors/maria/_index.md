@@ -1,11 +1,12 @@
 ---
-Name: Maria Tackett
+title: Maria Tackett
+Name: maria
 author: 
   - maria
 organizations:
 - name: Duke University
   url: ""
-role: Project Lead
+role: 
 social:
 - icon: envelope
   icon_pack: fas

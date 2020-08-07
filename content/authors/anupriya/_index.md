@@ -1,5 +1,6 @@
 ---
-Name: Anupriya Sivakumar
+title: Anupriya Sivakumar
+Name: anupriya
 weight: 10
 authors: 
   - anupriya

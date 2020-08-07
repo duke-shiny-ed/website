@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Glen Morgenstern | Duke ShinyEd</title>
+    <link>/author/glen-morgenstern/</link>
+      <atom:link href="/author/glen-morgenstern/index.xml" rel="self" type="application/rss+xml" />
+    <description>Glen Morgenstern</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <image>
+      <url>/author/glen-morgenstern/avatar_huc4e49b71d8f2af5f71d4855fdad8e6bf_9703737_270x270_fill_lanczos_center_2.png</url>
+      <title>Glen Morgenstern</title>
+      <link>/author/glen-morgenstern/</link>
+    </image>
+    
+  </channel>
+</rss>

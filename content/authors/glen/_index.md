@@ -1,12 +1,13 @@
 ---
-Name: Glen Morgenstern
+Title: Glen Morgenstern
+name: glen
 authors: 
   - glen
 weight: 40
 organizations:
 - name: Duke University
   url: ""
-role: Student
+role: 
 social:
 - icon: envelope
   icon_pack: fas

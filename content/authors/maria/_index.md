@@ -1,6 +1,6 @@
 ---
 name: Maria Tackett
-authors: 
+author: 
   - maria
 organizations:
 - name: Duke University

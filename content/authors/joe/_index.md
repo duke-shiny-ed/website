@@ -1,9 +1,9 @@
 ---
-name: NAME
+name: Joe Choo
 organizations:
 - name: Duke University
   url: ""
-role: 
+role: Student
 social:
 - icon: envelope
   icon_pack: fas
@@ -24,4 +24,4 @@ user_groups:
 - Students
 ---
 
-(Optional) If you want to add a short bio about yourself, i.e. name, major/academic interests, year in school. Otherwise delete this text. 
+Joe is a junior at Duke majoring in Statistics and Economics, and a certificate in Decision Sciences. Joe fences for Duke and is an active member of Duke's Asian Students Association and Scale & Coin Business Society.

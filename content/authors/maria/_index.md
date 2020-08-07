@@ -1,5 +1,7 @@
 ---
 name: Maria Tackett
+authors: 
+  - maria
 organizations:
 - name: Duke University
   url: ""

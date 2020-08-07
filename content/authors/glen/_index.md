@@ -1,5 +1,7 @@
 ---
 name: Glen Morgenstern
+authors: 
+  - glen
 weight: 40
 organizations:
 - name: Duke University

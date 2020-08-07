@@ -16,7 +16,7 @@ social:
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.  
 user_groups:
-- Students
+- Project Manager
 ---
 
 Anupriya Sivakumar is currently a Cybersecurity Analyst at Fidelity Investments. She graduated from Duke in 2019 with a B.S. in Statistics and Psychology. She is passionate about data analysis, visualization, and effectively communicating data-driven insights critical to strategic business decisions.   

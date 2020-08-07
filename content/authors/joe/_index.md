@@ -1,5 +1,6 @@
 ---
 name: Joe Choo
+weight: 20
 organizations:
 - name: Duke University
   url: ""

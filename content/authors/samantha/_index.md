@@ -1,5 +1,6 @@
 ---
 name: Samantha Owusu-Antwi
+weight: 50
 organizations:
 - name: Undergraduate student at Duke University
   url: ""

@@ -1,5 +1,6 @@
 ---
 name: Glen Morgenstern
+weight: 40
 organizations:
 - name: Duke University
   url: ""

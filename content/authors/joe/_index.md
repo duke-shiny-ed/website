@@ -24,4 +24,4 @@ user_groups:
 - Students
 ---
 
-Joe is a junior at Duke majoring in Statistics and Economics, and a certificate in Decision Sciences. Joe fences for Duke and is an active member of Duke's Asian Students Association and Scale & Coin Business Society.
+Joe is a junior at Duke pursuing majors in Statistics and Economics, and a certificate in Decision Sciences. Joe fences for Duke and is an active member of Duke's Asian Students Association and Scale & Coin Business Society.

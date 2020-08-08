@@ -36,7 +36,7 @@ The next tab, titled "Step 1", kicks off the ANOVA testing process. Here, users 
 ### **Step 2: Draw the Samples**
 On the Step 2 tab, random samples have been taken from the population data chosen during Step 1. Here, the user may manipulate the sample size drawn from each population. 
 
-This tab also introduces the assumptions of the ANOVA test. Depending on the sample size and population data selected on the previous tab, users are told whether or not the assumptions have been met. If the assumptions are met green text will be rendered. For a vaild ANOVA test conclusion, users should aim to choose a sample size and manipulations from the previous tab so that all the text under this section turns green.
+This tab also introduces the assumptions of the ANOVA test. Depending on the sample size and population data selected on the previous tab, users are told whether or not the assumptions have been met. If the assumptions are met green text will be rendered. For a vaild ANOVA test conclusion, users should aim to select manipulations on the Step 1 and Step 2 tabs so that all the text under this section turns green.
 
 The random samples are displayed graphically on this tab as boxplots. Users may interact with the graph to visualize the boxplots in full, a visual representation of the within groups variances *of the samples*, or a visual representation of the between groups variance *of the samples*. The relevance of these variances are explored further during the next step.
 

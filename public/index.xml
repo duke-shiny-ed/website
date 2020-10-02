@@ -5,30 +5,12 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Duke ShinyEd</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 28 Jun 2018 00:00:00 +0100</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Duke ShinyEd</title>
       <link>/</link>
     </image>
-    
-    <item>
-      <title>Privacy Policy</title>
-      <link>/privacy/</link>
-      <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
-      <guid>/privacy/</guid>
-      <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Terms</title>
-      <link>/terms/</link>
-      <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
-      <guid>/terms/</guid>
-      <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
-</description>
-    </item>
     
     <item>
       <title>Exploring ANOVA (Analysis of Variance)</title>
@@ -58,7 +40,7 @@
 &lt;p&gt;The next tab, titled &amp;ldquo;Step 1&amp;rdquo;, kicks off the ANOVA testing process. Here, users are introduced to the null and alternative hypotheses of ANOVA. They may then choose the population data that will be used for the rest of the exploration by interacting with the various manipulators present. Once satisfied with their choices users may progress to the next step.&lt;/p&gt;
 &lt;h3 id=&#34;step-2-draw-the-samples&#34;&gt;&lt;strong&gt;Step 2: Draw the Samples&lt;/strong&gt;&lt;/h3&gt;
 &lt;p&gt;On the Step 2 tab, random samples have been taken from the population data chosen during Step 1. Here, the user may manipulate the sample size drawn from each population.&lt;/p&gt;
-&lt;p&gt;This tab also introduces the assumptions of the ANOVA test. Depending on the sample size and population data selected on the previous tab, users are told whether or not the assumptions have been met.&lt;/p&gt;
+&lt;p&gt;This tab also introduces the assumptions of the ANOVA test. Depending on the sample size and population data selected on the previous tab, users are told whether or not the assumptions have been met. If the assumptions are met green text will be rendered. For a vaild ANOVA test conclusion, users should aim to select manipulations on the Step 1 and Step 2 tabs so that all the text under this section turns green.&lt;/p&gt;
 &lt;p&gt;The random samples are displayed graphically on this tab as boxplots. Users may interact with the graph to visualize the boxplots in full, a visual representation of the within groups variances &lt;em&gt;of the samples&lt;/em&gt;, or a visual representation of the between groups variance &lt;em&gt;of the samples&lt;/em&gt;. The relevance of these variances are explored further during the next step.&lt;/p&gt;
 &lt;h3 id=&#34;step-3-anova-test&#34;&gt;&lt;strong&gt;Step 3: ANOVA Test&lt;/strong&gt;&lt;/h3&gt;
 &lt;p&gt;The Step 3 tab is concerned with reviewing the conclusion made by the ANOVA test on the population data selected by users during Step 1. Before receiving the conclusion, users are reminded of the hypotheses examined by ANOVA.&lt;/p&gt;

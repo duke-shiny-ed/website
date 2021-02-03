@@ -1,6 +1,6 @@
 ---
-title: INPUT YOUR NAME
-name: INPUT YOUR NAME
+title: Manny Mokel
+name: Manny
 weight: 20
 authors: 
 - manny

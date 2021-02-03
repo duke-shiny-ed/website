@@ -1,6 +1,6 @@
 ---
-title: INPUT YOUR NAME
-name: INPUT YOUR NAME
+title: Sean Li
+name: Sean
 weight: 20
 authors: 
 - sean

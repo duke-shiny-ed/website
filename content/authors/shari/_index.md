@@ -1,6 +1,6 @@
 ---
-title: INPUT YOUR NAME
-name: INPUT YOUR NAME
+title: Shari Tian
+name: Shari
 weight: 20
 authors: 
 - shari

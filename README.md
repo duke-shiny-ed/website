@@ -54,10 +54,13 @@ Each time you save changes, the webpage will update in your browser.
 
 ## Update your "Meet the Team" page
 
+- You will need the blogdown R package. You can install it using `install.packages("blogdown")`.
+- Clone the website repo.
 - Go to *content* -> *authors* to find your folder. 
 - In your folder, update your information in the *_index.md* file. Leave the field blank if you don't want to include that info. 
   - **Note:** Only include a link to your Twitter account if you use it as a professoinal account. Don't include links to any personal social media.
   - Add a photo to the folder. Be sure the photo is called *avatar.jpg*. (A .png should also work). 
+  - 
 
 ## Resources
 

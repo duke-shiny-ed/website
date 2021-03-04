@@ -25,7 +25,7 @@ install_hugo()
 ## Update your project page 
 
 - Go to *content* -> *project* -> *folder for your app*
-- Put a screen shot of your app in your folder under the name *featured.jpg* (.png file should also work). You will need to delete the image that's currently in the foldr before saving the new one. 
+- Put a screen shot of your app in your folder under the name *featured.jpg* (.png file should also work). You will need to delete the image that's currently in the folder before saving the new one. 
 - Update the index file: 
   - In the header: 
     - add image caption
@@ -54,13 +54,13 @@ Each time you save changes, the webpage will update in your browser.
 
 ## Update your "Meet the Team" page
 
-- You will need the blogdown R package. You can install it using `install.packages("blogdown")`.
-- Clone the website repo.
-- Go to *content* -> *authors* to find your folder. 
+- In Rstudio, Go to *content* -> *authors* to find your folder. 
 - In your folder, update your information in the *_index.md* file. Leave the field blank if you don't want to include that info. 
-  - **Note:** Only include a link to your Twitter account if you use it as a professoinal account. Don't include links to any personal social media.
+  - **Note:** Only include a link to your Twitter account if you use it as a professional account. Don't include links to any personal social media.
   - Add a photo to the folder. Be sure the photo is called *avatar.jpg*. (A .png should also work). 
-  - 
+- Use `blogdown::build_site()` to rebuild the site with your updates. 
+- Use `blogdown::serve_site()` to view your changes on the preview site.
+- Once you have finalized your page, you can push the changes to GitHub. The website will update automatically when you push.
 
 ## Resources
 

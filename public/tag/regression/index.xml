@@ -38,9 +38,9 @@
     
     <item>
       <title>Logistic Regression</title>
-      <link>/project/logistic-roc/</link>
+      <link>/project/02-logistic-roc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/project/logistic-roc/</guid>
+      <guid>/project/02-logistic-roc/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
 &lt;p&gt;In regression analysis, logistic regression is an important statistical model that can help model/predict binary dependent variables. An important step in creating logistic regression models is choosing the appropriate threshold, which is done through the ROC Curve. In this app you will explore the ROC curve, decision-making thresholds, and corresponding confusion matrices.&lt;/p&gt;
 &lt;h3 id=&#34;learning-goals&#34;&gt;Learning Goals&lt;/h3&gt;
@@ -62,9 +62,9 @@
     
     <item>
       <title>Model Diagnostics</title>
-      <link>/project/regression-outliers/</link>
+      <link>/project/03-regression-outliers/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/project/regression-outliers/</guid>
+      <guid>/project/03-regression-outliers/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
 &lt;p&gt;Explore diagnostics for linear regression and use them to understand how influential points can impact the model.&lt;/p&gt;
 &lt;h2 id=&#34;learning-goals&#34;&gt;Learning Goals&lt;/h2&gt;

@@ -14,9 +14,9 @@
     
     <item>
       <title>Hypothesis Testing</title>
-      <link>/project/hypothesis-testing/</link>
+      <link>/project/04-hypothesis-testing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/project/hypothesis-testing/</guid>
+      <guid>/project/04-hypothesis-testing/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
 &lt;p&gt;Often in research and data analysis, we want to investigate certain new claims that challenge what is currently believed, so we take some sample data and see whether or not it supports our new claim. Hypothesis testing is a reliable way to take sample data and test how strongly its evidence supports our new claim &amp;ndash; if the evidence is strong, we can reject the old beliefs and support the new; if it is weak, we cannot reject the old beliefs.&lt;/p&gt;
 &lt;p&gt;This app will allow you to explore hypothesis testing from beginning to end, giving you skills to:&lt;/p&gt;

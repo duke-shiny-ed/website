@@ -38,9 +38,9 @@
     
     <item>
       <title>Hypothesis Testing</title>
-      <link>/project/hypothesis-testing/</link>
+      <link>/project/04-hypothesis-testing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/project/hypothesis-testing/</guid>
+      <guid>/project/04-hypothesis-testing/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
 &lt;p&gt;Often in research and data analysis, we want to investigate certain new claims that challenge what is currently believed, so we take some sample data and see whether or not it supports our new claim. Hypothesis testing is a reliable way to take sample data and test how strongly its evidence supports our new claim &amp;ndash; if the evidence is strong, we can reject the old beliefs and support the new; if it is weak, we cannot reject the old beliefs.&lt;/p&gt;
 &lt;p&gt;This app will allow you to explore hypothesis testing from beginning to end, giving you skills to:&lt;/p&gt;
@@ -71,9 +71,9 @@
     
     <item>
       <title>Logistic Regression</title>
-      <link>/project/logistic-roc/</link>
+      <link>/project/02-logistic-roc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/project/logistic-roc/</guid>
+      <guid>/project/02-logistic-roc/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
 &lt;p&gt;In regression analysis, logistic regression is an important statistical model that can help model/predict binary dependent variables. An important step in creating logistic regression models is choosing the appropriate threshold, which is done through the ROC Curve. In this app you will explore the ROC curve, decision-making thresholds, and corresponding confusion matrices.&lt;/p&gt;
 &lt;h3 id=&#34;learning-goals&#34;&gt;Learning Goals&lt;/h3&gt;
@@ -95,9 +95,9 @@
     
     <item>
       <title>Model Diagnostics</title>
-      <link>/project/regression-outliers/</link>
+      <link>/project/03-regression-outliers/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/project/regression-outliers/</guid>
+      <guid>/project/03-regression-outliers/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
 &lt;p&gt;Explore diagnostics for linear regression and use them to understand how influential points can impact the model.&lt;/p&gt;
 &lt;h2 id=&#34;learning-goals&#34;&gt;Learning Goals&lt;/h2&gt;

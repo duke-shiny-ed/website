@@ -30,7 +30,7 @@
   
     
   
-  <meta name="description" content="Learn how to identify outliers in your data set — and what to do once you&#39;ve found them.">
+  <meta name="description" content="Explore diagnostics for linear regression models and the impact of influential points on the model.">
 
   
   <link rel="alternate" hreflang="en-us" href="/project/regression-outliers/">
@@ -247,8 +247,8 @@
   
   <meta property="og:site_name" content="Duke ShinyEd">
   <meta property="og:url" content="/project/regression-outliers/">
-  <meta property="og:title" content="How to Find and Deal with Outliers | Duke ShinyEd">
-  <meta property="og:description" content="Learn how to identify outliers in your data set — and what to do once you&#39;ve found them."><meta property="og:image" content="/project/regression-outliers/featured.png">
+  <meta property="og:title" content="Model Diagnostics | Duke ShinyEd">
+  <meta property="og:description" content="Explore diagnostics for linear regression models and the impact of influential points on the model."><meta property="og:image" content="/project/regression-outliers/featured.png">
   <meta property="twitter:image" content="/project/regression-outliers/featured.png"><meta property="og:locale" content="en-us">
   
     
@@ -276,7 +276,7 @@
     "@type": "WebPage",
     "@id": "/project/regression-outliers/"
   },
-  "headline": "How to Find and Deal with Outliers",
+  "headline": "Model Diagnostics",
   
   "image": [
     "/project/regression-outliers/featured.png"
@@ -293,7 +293,7 @@
       "url": "/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
     }
   },
-  "description": "Learn how to identify outliers in your data set — and what to do once you've found them."
+  "description": "Explore diagnostics for linear regression models and the impact of influential points on the model."
 }
 </script>
 
@@ -311,7 +311,7 @@
 
 
 
-  <title>How to Find and Deal with Outliers | Duke ShinyEd</title>
+  <title>Model Diagnostics | Duke ShinyEd</title>
 
 </head>
 <body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
@@ -516,7 +516,7 @@
 
 
 <div class="article-container pt-3">
-  <h1>How to Find and Deal with Outliers</h1>
+  <h1>Model Diagnostics</h1>
 
   
 
@@ -587,7 +587,7 @@
   
     
   
-<a class="btn btn-outline-primary my-1 mr-1" href="https://github.com/duke-shiny-ed/OutlierApp" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="http://maths4.stat.duke.edu:3939/model-diagnostics/" target="_blank" rel="noopener">
   Code
 </a>
 
@@ -614,7 +614,7 @@
   
     
   
-  <a class="btn btn-outline-primary my-1 mr-1" href="https://glenmorgenstern.shinyapps.io/OutlierApp/" target="_blank" rel="noopener">
+  <a class="btn btn-outline-primary my-1 mr-1" href="http://maths4.stat.duke.edu:3939/model-diagnostics/" target="_blank" rel="noopener">
     <i class="fas fa-atom mr-1"></i>
     See the app!
   </a>
@@ -629,7 +629,7 @@
 <div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 444px;">
   <div style="position: relative">
     <img src="/project/regression-outliers/featured_huc3c668a1ff6aa1073e095a3738f62c14_155848_720x0_resize_lanczos_2.png" alt="" class="featured-image">
-    
+    <span class="article-header-caption">Model Diagnostics</span>
   </div>
 </div>
 
@@ -638,29 +638,22 @@
   <div class="article-container">
 
     <div class="article-style">
-      <h4 id="to-start-click-on-see-the-app-above">To start, click on &lsquo;See the app!&rsquo; above:</h4>
-<h2 id="overview">Overview</h2>
-<p>Outliers are not an easy topic to learn, but we&rsquo;ll keep it simple here—we promise. In this app, you will learn:</p>
-<ul>
-<li>Three painless measurement methods to spot outliers</li>
-<li>When it is acceptable to remove an outlier from your regression model</li>
-<li>Alternative solutions for dealing with outliers</li>
-</ul>
-<h2 id="instructions">Instructions</h2>
-<h3 id="1-identify-outliers">1. Identify Outliers</h3>
-<p>Click on the checkboxes to include and exclude outliers from the model. See how the regression line and coefficients change. Answer the multiple choice question to see if you&rsquo;ve learned what you were meant to.</p>
-<h3 id="2-measure-outliers">2. Measure Outliers</h3>
-<p>Click on each of the three measures to see easy-to-understand definitions and formulas. Then, look at the corresponding graphs to identify which observations are outliers.</p>
-<p>Check your work by looking for labels on the graphs.</p>
-<h3 id="3-solutions-for-outliers">3. Solutions for Outliers</h3>
-<p>Now you know how to find outliers, but what should you do with them? Click on the checkboxes to find the correct answers. Remember — there is more than one correct solution, and some are better than others!</p>
-<h3 id="4-quiz">4. Quiz</h3>
-<p>Reinforce your knowledge of outliers with a quick 5-question quiz. All multiple choice, don&rsquo;t worry.</p>
-<h3 id="5-resources">5. Resources</h3>
-<p>Want to learn more about outliers? Try one of these other tutorials, ranging from beginner to pro.</p>
+      <h2 id="overview">Overview</h2>
+<p>Explore diagnostics for linear regression and use them to understand how influential points can impact the model.</p>
+<h2 id="learning-goals">Learning Goals</h2>
+<ol>
+<li>
+<p>Understand model diagnostics for linear regression and use them to identify potential influential points</p>
+</li>
+<li>
+<p>Explore how outliers and influential points can impact the regression model</p>
+</li>
+<li>
+<p>Examine strategies to address outliers and influential points</p>
+</li>
+</ol>
 <hr>
-<p><em>This app was was developed by 
-<a href="https://www.linkedin.com/in/glen-morgenstern-164b8a182/" target="_blank" rel="noopener">Glen Morgenstern</a> as part of the Summer 2020 Duke Shiny Ed program.</em></p>
+<p><em>This app was originally developed by Glen Morgenstern in Summer 2020 and further updated by Sean Li in Spring 2021.</em></p>
 
     </div>
 
@@ -690,7 +683,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=/project/regression-outliers/&amp;text=How%20to%20Find%20and%20Deal%20with%20Outliers" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=/project/regression-outliers/&amp;text=Model%20Diagnostics" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -703,7 +696,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=/project/regression-outliers/&amp;t=How%20to%20Find%20and%20Deal%20with%20Outliers" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=/project/regression-outliers/&amp;t=Model%20Diagnostics" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -716,7 +709,7 @@
       
       
       <li>
-        <a href="mailto:?subject=How%20to%20Find%20and%20Deal%20with%20Outliers&amp;body=/project/regression-outliers/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Model%20Diagnostics&amp;body=/project/regression-outliers/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -729,7 +722,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/project/regression-outliers/&amp;title=How%20to%20Find%20and%20Deal%20with%20Outliers" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=/project/regression-outliers/&amp;title=Model%20Diagnostics" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -742,7 +735,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=How%20to%20Find%20and%20Deal%20with%20Outliers%20/project/regression-outliers/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=Model%20Diagnostics%20/project/regression-outliers/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -755,7 +748,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=/project/regression-outliers/&amp;title=How%20to%20Find%20and%20Deal%20with%20Outliers" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=/project/regression-outliers/&amp;title=Model%20Diagnostics" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -858,9 +851,9 @@
     <h3>Related</h3>
     <ul>
       
-      <li><a href="/project/anova/">Exploring ANOVA (Analysis of Variance)</a></li>
+      <li><a href="/project/anova/">Analysis of Variance</a></li>
       
-      <li><a href="/project/logistic-roc/">Logistic Regression and ROC Curves</a></li>
+      <li><a href="/project/logistic-roc/">Logistic Regression</a></li>
       
     </ul>
   </div>

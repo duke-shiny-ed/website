@@ -1,47 +1,31 @@
 ---
 image:
-  caption:
+  caption: Model Diagnostics
   focal_point: Smart
 links:
 - icon: atom
   icon_pack: fas
   name: See the app!
-  url: https://glenmorgenstern.shinyapps.io/OutlierApp/
-summary: Learn how to identify outliers in your data set — and what to do once you've found them.
+  url: http://maths4.stat.duke.edu:3939/model-diagnostics/
+summary: Explore diagnostics for linear regression models and the impact of influential points on the model.
 tags:
 - regression
-title: How to Find and Deal with Outliers
-url_code: "https://github.com/duke-shiny-ed/OutlierApp"
+title: Model Diagnostics
+url_code: "http://maths4.stat.duke.edu:3939/model-diagnostics/"
 ---
 
-#### To start, click on 'See the app!' above:
 
 ## Overview
-Outliers are not an easy topic to learn, but we'll keep it simple here—we promise. In this app, you will learn:
 
-- Three painless measurement methods to spot outliers
-- When it is acceptable to remove an outlier from your regression model
-- Alternative solutions for dealing with outliers
+Explore diagnostics for linear regression and use them to understand how influential points can impact the model.  
 
+## Learning Goals
 
-## Instructions
+1. Understand model diagnostics for linear regression and use them to identify potential influential points
 
-### 1. Identify Outliers
-Click on the checkboxes to include and exclude outliers from the model. See how the regression line and coefficients change. Answer the multiple choice question to see if you've learned what you were meant to.
+2. Explore how outliers and influential points can impact the regression model
 
-### 2. Measure Outliers
-Click on each of the three measures to see easy-to-understand definitions and formulas. Then, look at the corresponding graphs to identify which observations are outliers.
-
-Check your work by looking for labels on the graphs.
-
-### 3. Solutions for Outliers
-Now you know how to find outliers, but what should you do with them? Click on the checkboxes to find the correct answers. Remember — there is more than one correct solution, and some are better than others!
-
-### 4. Quiz
-Reinforce your knowledge of outliers with a quick 5-question quiz. All multiple choice, don't worry.
-
-### 5. Resources
-Want to learn more about outliers? Try one of these other tutorials, ranging from beginner to pro.
+3. Examine strategies to address outliers and influential points 
 
 ---
-*This app was was developed by [Glen Morgenstern](https://www.linkedin.com/in/glen-morgenstern-164b8a182/) as part of the Summer 2020 Duke Shiny Ed program.*
+*This app was originally developed by Glen Morgenstern in Summer 2020 and further updated by Sean Li in Spring 2021.*

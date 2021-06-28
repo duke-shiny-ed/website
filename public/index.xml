@@ -13,14 +13,13 @@
     </image>
     
     <item>
-      <title>Exploring ANOVA (Analysis of Variance)</title>
+      <title>Analysis of Variance</title>
       <link>/project/anova/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/project/anova/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
-&lt;p&gt;In this particular app you will be able to explore ANOVA, or Analysis of Variance. ANOVA is a method used in statistical analysis to question whether there is a meaningful difference between groups being studied. &lt;em&gt;To access the Exploring ANOVA app click 
-&lt;a href=&#34;https://samanthaowusu.shinyapps.io/ANOVA-app/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;See the app!&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Learning Goals:&lt;/p&gt;
+&lt;p&gt;In this app you will be able to explore Analysis of Variance (ANOVA). ANOVA is a method used in statistical analysis to question whether there is a meaningful difference between groups being studied.&lt;/p&gt;
+&lt;h3 id=&#34;learning-goals&#34;&gt;Learning Goals&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;Examine how violations of the assumptions of ANOVA affect the ANOVA test output&lt;/p&gt;
@@ -32,57 +31,8 @@
 &lt;p&gt;Predict how manipulation of between and within group variances will affect the F-statistic and the ANOVA test output&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2 id=&#34;instructions&#34;&gt;Instructions&lt;/h2&gt;
-&lt;p&gt;This app is designed to gradually introduce you to the different aspects of ANOVA. To do this, the app utilizes a series of tabs. Interact with them in order, from left to right, to be guided through a step-by-step exploration of the ANOVA test. &lt;em&gt;The app is optimally viewed in full screen web browser.&lt;/em&gt;&lt;/p&gt;
-&lt;h3 id=&#34;about-page&#34;&gt;&lt;strong&gt;About Page&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;This first tab introduces the learning objectives the app seeks to address and offers a brief introduction to ANOVA. In the following three tabs users are given the opportunity to conduct their very own ANOVA test.&lt;/p&gt;
-&lt;h3 id=&#34;step-1-identifying-the-population&#34;&gt;&lt;strong&gt;Step 1: Identifying the Population&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;The next tab, titled &amp;ldquo;Step 1&amp;rdquo;, kicks off the ANOVA testing process. Here, users are introduced to the null and alternative hypotheses of ANOVA. They may then choose the population data that will be used for the rest of the exploration by interacting with the various manipulators present. Once satisfied with their choices users may progress to the next step.&lt;/p&gt;
-&lt;h3 id=&#34;step-2-draw-the-samples&#34;&gt;&lt;strong&gt;Step 2: Draw the Samples&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;On the Step 2 tab, random samples have been taken from the population data chosen during Step 1. Here, the user may manipulate the sample size drawn from each population.&lt;/p&gt;
-&lt;p&gt;This tab also introduces the assumptions of the ANOVA test. Depending on the sample size and population data selected on the previous tab, users are told whether or not the assumptions have been met. If the assumptions are met green text will be rendered. For a vaild ANOVA test conclusion, users should aim to select manipulations on the Step 1 and Step 2 tabs so that all the text under this section turns green.&lt;/p&gt;
-&lt;p&gt;The random samples are displayed graphically on this tab as boxplots. Users may interact with the graph to visualize the boxplots in full, a visual representation of the within groups variances &lt;em&gt;of the samples&lt;/em&gt;, or a visual representation of the between groups variance &lt;em&gt;of the samples&lt;/em&gt;. The relevance of these variances are explored further during the next step.&lt;/p&gt;
-&lt;h3 id=&#34;step-3-anova-test&#34;&gt;&lt;strong&gt;Step 3: ANOVA Test&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;The Step 3 tab is concerned with reviewing the conclusion made by the ANOVA test on the population data selected by users during Step 1. Before receiving the conclusion, users are reminded of the hypotheses examined by ANOVA.&lt;/p&gt;
-&lt;p&gt;Under the &amp;ldquo;What is the F-statistic&amp;rdquo; section users are introduced to the F-stat, its relationship to the within groups and between groups variances visualized on the &amp;ldquo;Step 2&amp;rdquo; tab, and how it is used by ANOVA to reach the conclusion. Once again, the random samples from Step 2, are displayed graphically as boxplots for reference.&lt;/p&gt;
-&lt;p&gt;Finally, the conclusion of the ANOVA test is presented. It is put in terms of the hypotheses users have examined, but users are also provided with a copy of the ANOVA test output they would expect were they to conduct the same test using the R programming language.&lt;/p&gt;
-&lt;h3 id=&#34;step-4-quiz&#34;&gt;&lt;strong&gt;Step 4: Quiz&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;This final tab provides a short assessment for users to practice running an ANOVA test in R snd review some of the concepts touched on throughout the app.&lt;/p&gt;
-&lt;h3 id=&#34;resources-page&#34;&gt;&lt;strong&gt;Resources Page&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;This next tab provides users with a copy of some equations relevant to ANOVA. This page also gives more insight into how to interpret the ANVOA test output from R encountered during Step 3.&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;&lt;em&gt;This app was developed by Samantha Owusu-Antwi as part of the Summer 2020 Duke Shiny Ed program.&lt;/em&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>How to Find and Deal with Outliers</title>
-      <link>/project/regression-outliers/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/project/regression-outliers/</guid>
-      <description>&lt;h4 id=&#34;to-start-click-on-see-the-app-above&#34;&gt;To start, click on &amp;lsquo;See the app!&amp;rsquo; above:&lt;/h4&gt;
-&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
-&lt;p&gt;Outliers are not an easy topic to learn, but we&amp;rsquo;ll keep it simple here—we promise. In this app, you will learn:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Three painless measurement methods to spot outliers&lt;/li&gt;
-&lt;li&gt;When it is acceptable to remove an outlier from your regression model&lt;/li&gt;
-&lt;li&gt;Alternative solutions for dealing with outliers&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;instructions&#34;&gt;Instructions&lt;/h2&gt;
-&lt;h3 id=&#34;1-identify-outliers&#34;&gt;1. Identify Outliers&lt;/h3&gt;
-&lt;p&gt;Click on the checkboxes to include and exclude outliers from the model. See how the regression line and coefficients change. Answer the multiple choice question to see if you&amp;rsquo;ve learned what you were meant to.&lt;/p&gt;
-&lt;h3 id=&#34;2-measure-outliers&#34;&gt;2. Measure Outliers&lt;/h3&gt;
-&lt;p&gt;Click on each of the three measures to see easy-to-understand definitions and formulas. Then, look at the corresponding graphs to identify which observations are outliers.&lt;/p&gt;
-&lt;p&gt;Check your work by looking for labels on the graphs.&lt;/p&gt;
-&lt;h3 id=&#34;3-solutions-for-outliers&#34;&gt;3. Solutions for Outliers&lt;/h3&gt;
-&lt;p&gt;Now you know how to find outliers, but what should you do with them? Click on the checkboxes to find the correct answers. Remember — there is more than one correct solution, and some are better than others!&lt;/p&gt;
-&lt;h3 id=&#34;4-quiz&#34;&gt;4. Quiz&lt;/h3&gt;
-&lt;p&gt;Reinforce your knowledge of outliers with a quick 5-question quiz. All multiple choice, don&amp;rsquo;t worry.&lt;/p&gt;
-&lt;h3 id=&#34;5-resources&#34;&gt;5. Resources&lt;/h3&gt;
-&lt;p&gt;Want to learn more about outliers? Try one of these other tutorials, ranging from beginner to pro.&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;em&gt;This app was was developed by 
-&lt;a href=&#34;https://www.linkedin.com/in/glen-morgenstern-164b8a182/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Glen Morgenstern&lt;/a&gt; as part of the Summer 2020 Duke Shiny Ed program.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;This app was originally developed by Samantha Owusu-Antwi in Summer 2020 and further updated by Shari Tian in Spring 2021.&lt;/em&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -120,54 +70,50 @@
     </item>
     
     <item>
-      <title>Logistic Regression and ROC Curves</title>
+      <title>Logistic Regression</title>
       <link>/project/logistic-roc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/project/logistic-roc/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;For best view, please use Google Chrome with maximum width!&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;In regression analysis, logistic regression is an important statistical model that can help model/predict binary dependent variables. An important step in creating logistic regression models is choosing the appropriate threshold, which is done through the ROC Curve.&lt;/p&gt;
-&lt;p&gt;In this app you will:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Identify the function of logistic regression&lt;/li&gt;
-&lt;li&gt;Select and understand ROC/AUC curves in logistic regression models&lt;/li&gt;
-&lt;li&gt;Interpret a confusion matrix&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;instructions&#34;&gt;Instructions&lt;/h2&gt;
-&lt;p&gt;The Logistic Regression and ROC Curves App is best experienced through sequentially following the tabs on the left side bar, and from left to right within tabs that have that capability (&amp;lsquo;Logistic Regression&amp;rsquo; and &amp;lsquo;ROC Curve&amp;rsquo; tabs).&lt;/p&gt;
-&lt;h3 id=&#34;step-1-welcome-tab&#34;&gt;Step 1: Welcome Tab&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Overview of the app with learning objectives&lt;/li&gt;
-&lt;li&gt;Quick description of the dataset being used&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;step-2-logistic-regression&#34;&gt;Step 2: Logistic Regression&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Info&lt;/strong&gt;: First introduction to logistic regression, the situation one would use it in, and basic discussion of the output.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Data&lt;/strong&gt;: Scroll through entries in a table view!&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Model&lt;/strong&gt;: Observe the data points from the previous tab in a graph with balance on the x axis and if the observation was default (1) or not default (0). Toggle the checkbox to see how the logistic model with a threshold of .5 categorizes the observation. Which observations are correctly predicted? How can you tell?&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;step-3-roc-curve&#34;&gt;Step 3: ROC Curve&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;What is ROC&lt;/strong&gt;: This tab serves as an overview for the elements of an ROC Curve including axes and AUC. Notice where the threshold of .5 (which was used previously) is on the ROC Curve. Go to the next tab to see how the threshold from the model graph relates to the ROC Curve graph.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Interaction&lt;/strong&gt;: Scroll manually on the Threshold bar to change where the threshold lies on the model. See these predicted outcomes in real time with the confusion matrix on the bottom and how accurate the model is with the table on the right. You can also click the small green arrow on the Threshold button to animate the change of threshold and how it affects the confusion matrix and points on the ROC Curve!&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;step-4-confusion-matrix&#34;&gt;Step 4: Confusion Matrix&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Now what does the confusion matrix actually show?&lt;/li&gt;
-&lt;li&gt;See both the text definitions and the data points related to each types of predictions. Play with different thresholds in the previous tab and notice how it affects different calculations related to the strength of the model including: accuracy, misclassification, sensitivity, and specificity. Use the buttons on the bottom to see how these values are calculated! Also notice trends between the ROC Curve and the rest of the table of values on this tab.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;step-5-quiz&#34;&gt;Step 5: Quiz&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Review your new knowledge with this multiple choice quiz! You can redo each question after submitting an answer individually.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;step-6-glossaryresources&#34;&gt;Step 6: Glossary/Resources&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Glossary&lt;/strong&gt;: A good reference of all the definitions from key vocab in this app. Refer back and forth between these definitions and the parts of the app or concepts you have found confusing.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Resources&lt;/strong&gt;: Need more info? Check out the video that inspired this app! There is also a link to the code for the R Shiny app as a resource.&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;In regression analysis, logistic regression is an important statistical model that can help model/predict binary dependent variables. An important step in creating logistic regression models is choosing the appropriate threshold, which is done through the ROC Curve. In this app you will explore the ROC curve, decision-making thresholds, and corresponding confusion matrices.&lt;/p&gt;
+&lt;h3 id=&#34;learning-goals&#34;&gt;Learning Goals&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Understand the logistic regression equation.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Examine the ROC curve and how it can be used to determine a decision-making threshold.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Obtain the confusion matrix for a given decision-making threshold, and use the matrix to calculate sensitivity, specificity, and error rates.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
 &lt;hr&gt;
-&lt;p&gt;&lt;em&gt;The Logistic Regression and ROC Curves app was created by 
-&lt;a href=&#34;https://www.linkedin.com/in/joe-choo/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Joe Choo&lt;/a&gt; as part of the Summer 2020 Duke Shiny Ed Program.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;This app was originally developed by Joe Choo in Summer 2020 and further updated by Emmanuel Mokel in Spring 2021.&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Model Diagnostics</title>
+      <link>/project/regression-outliers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/project/regression-outliers/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Explore diagnostics for linear regression and use them to understand how influential points can impact the model.&lt;/p&gt;
+&lt;h2 id=&#34;learning-goals&#34;&gt;Learning Goals&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Understand model diagnostics for linear regression and use them to identify potential influential points&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Explore how outliers and influential points can impact the regression model&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Examine strategies to address outliers and influential points&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;This app was originally developed by Glen Morgenstern in Summer 2020 and further updated by Sean Li in Spring 2021.&lt;/em&gt;&lt;/p&gt;
 </description>
     </item>
     

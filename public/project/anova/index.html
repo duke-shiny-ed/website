@@ -247,7 +247,7 @@
   
   <meta property="og:site_name" content="Duke ShinyEd">
   <meta property="og:url" content="/project/anova/">
-  <meta property="og:title" content="Exploring ANOVA (Analysis of Variance) | Duke ShinyEd">
+  <meta property="og:title" content="Analysis of Variance | Duke ShinyEd">
   <meta property="og:description" content="Learn more about the ANOVA test process including which assumptions the test makes and the meaning behind the test conclusion."><meta property="og:image" content="/project/anova/featured.jpg">
   <meta property="twitter:image" content="/project/anova/featured.jpg"><meta property="og:locale" content="en-us">
   
@@ -276,7 +276,7 @@
     "@type": "WebPage",
     "@id": "/project/anova/"
   },
-  "headline": "Exploring ANOVA (Analysis of Variance)",
+  "headline": "Analysis of Variance",
   
   "image": [
     "/project/anova/featured.jpg"
@@ -311,7 +311,7 @@
 
 
 
-  <title>Exploring ANOVA (Analysis of Variance) | Duke ShinyEd</title>
+  <title>Analysis of Variance | Duke ShinyEd</title>
 
 </head>
 <body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
@@ -516,7 +516,7 @@
 
 
 <div class="article-container pt-3">
-  <h1>Exploring ANOVA (Analysis of Variance)</h1>
+  <h1>Analysis of Variance</h1>
 
   
 
@@ -587,7 +587,7 @@
   
     
   
-<a class="btn btn-outline-primary my-1 mr-1" href="https://github.com/duke-shiny-ed/ANOVA-app" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="http://maths4.stat.duke.edu:3939/ANOVA/" target="_blank" rel="noopener">
   Code
 </a>
 
@@ -612,7 +612,7 @@
   
     
   
-  <a class="btn btn-outline-primary my-1 mr-1" href="https://samanthaowusu.shinyapps.io/ANOVA-app/" target="_blank" rel="noopener">
+  <a class="btn btn-outline-primary my-1 mr-1" href="http://maths4.stat.duke.edu:3939/ANOVA/" target="_blank" rel="noopener">
     <i class="fa fa-atom mr-1"></i>
     See the app!
   </a>
@@ -637,9 +637,8 @@
 
     <div class="article-style">
       <h2 id="overview">Overview</h2>
-<p>In this particular app you will be able to explore ANOVA, or Analysis of Variance. ANOVA is a method used in statistical analysis to question whether there is a meaningful difference between groups being studied. <em>To access the Exploring ANOVA app click 
-<a href="https://samanthaowusu.shinyapps.io/ANOVA-app/" target="_blank" rel="noopener">See the app!</a></em></p>
-<p>Learning Goals:</p>
+<p>In this app you will be able to explore Analysis of Variance (ANOVA). ANOVA is a method used in statistical analysis to question whether there is a meaningful difference between groups being studied.</p>
+<h3 id="learning-goals">Learning Goals</h3>
 <ol>
 <li>
 <p>Examine how violations of the assumptions of ANOVA affect the ANOVA test output</p>
@@ -651,26 +650,8 @@
 <p>Predict how manipulation of between and within group variances will affect the F-statistic and the ANOVA test output</p>
 </li>
 </ol>
-<h2 id="instructions">Instructions</h2>
-<p>This app is designed to gradually introduce you to the different aspects of ANOVA. To do this, the app utilizes a series of tabs. Interact with them in order, from left to right, to be guided through a step-by-step exploration of the ANOVA test. <em>The app is optimally viewed in full screen web browser.</em></p>
-<h3 id="about-page"><strong>About Page</strong></h3>
-<p>This first tab introduces the learning objectives the app seeks to address and offers a brief introduction to ANOVA. In the following three tabs users are given the opportunity to conduct their very own ANOVA test.</p>
-<h3 id="step-1-identifying-the-population"><strong>Step 1: Identifying the Population</strong></h3>
-<p>The next tab, titled &ldquo;Step 1&rdquo;, kicks off the ANOVA testing process. Here, users are introduced to the null and alternative hypotheses of ANOVA. They may then choose the population data that will be used for the rest of the exploration by interacting with the various manipulators present. Once satisfied with their choices users may progress to the next step.</p>
-<h3 id="step-2-draw-the-samples"><strong>Step 2: Draw the Samples</strong></h3>
-<p>On the Step 2 tab, random samples have been taken from the population data chosen during Step 1. Here, the user may manipulate the sample size drawn from each population.</p>
-<p>This tab also introduces the assumptions of the ANOVA test. Depending on the sample size and population data selected on the previous tab, users are told whether or not the assumptions have been met. If the assumptions are met green text will be rendered. For a vaild ANOVA test conclusion, users should aim to select manipulations on the Step 1 and Step 2 tabs so that all the text under this section turns green.</p>
-<p>The random samples are displayed graphically on this tab as boxplots. Users may interact with the graph to visualize the boxplots in full, a visual representation of the within groups variances <em>of the samples</em>, or a visual representation of the between groups variance <em>of the samples</em>. The relevance of these variances are explored further during the next step.</p>
-<h3 id="step-3-anova-test"><strong>Step 3: ANOVA Test</strong></h3>
-<p>The Step 3 tab is concerned with reviewing the conclusion made by the ANOVA test on the population data selected by users during Step 1. Before receiving the conclusion, users are reminded of the hypotheses examined by ANOVA.</p>
-<p>Under the &ldquo;What is the F-statistic&rdquo; section users are introduced to the F-stat, its relationship to the within groups and between groups variances visualized on the &ldquo;Step 2&rdquo; tab, and how it is used by ANOVA to reach the conclusion. Once again, the random samples from Step 2, are displayed graphically as boxplots for reference.</p>
-<p>Finally, the conclusion of the ANOVA test is presented. It is put in terms of the hypotheses users have examined, but users are also provided with a copy of the ANOVA test output they would expect were they to conduct the same test using the R programming language.</p>
-<h3 id="step-4-quiz"><strong>Step 4: Quiz</strong></h3>
-<p>This final tab provides a short assessment for users to practice running an ANOVA test in R snd review some of the concepts touched on throughout the app.</p>
-<h3 id="resources-page"><strong>Resources Page</strong></h3>
-<p>This next tab provides users with a copy of some equations relevant to ANOVA. This page also gives more insight into how to interpret the ANVOA test output from R encountered during Step 3.</p>
 <hr>
-<p><em>This app was developed by Samantha Owusu-Antwi as part of the Summer 2020 Duke Shiny Ed program.</em></p>
+<p><em>This app was originally developed by Samantha Owusu-Antwi in Summer 2020 and further updated by Shari Tian in Spring 2021.</em></p>
 
     </div>
 
@@ -700,7 +681,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=/project/anova/&amp;text=Exploring%20ANOVA%20%28Analysis%20of%20Variance%29" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=/project/anova/&amp;text=Analysis%20of%20Variance" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -713,7 +694,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=/project/anova/&amp;t=Exploring%20ANOVA%20%28Analysis%20of%20Variance%29" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=/project/anova/&amp;t=Analysis%20of%20Variance" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -726,7 +707,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Exploring%20ANOVA%20%28Analysis%20of%20Variance%29&amp;body=/project/anova/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Analysis%20of%20Variance&amp;body=/project/anova/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -739,7 +720,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/project/anova/&amp;title=Exploring%20ANOVA%20%28Analysis%20of%20Variance%29" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=/project/anova/&amp;title=Analysis%20of%20Variance" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -752,7 +733,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=Exploring%20ANOVA%20%28Analysis%20of%20Variance%29%20/project/anova/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=Analysis%20of%20Variance%20/project/anova/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -765,7 +746,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=/project/anova/&amp;title=Exploring%20ANOVA%20%28Analysis%20of%20Variance%29" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=/project/anova/&amp;title=Analysis%20of%20Variance" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -868,9 +849,9 @@
     <h3>Related</h3>
     <ul>
       
-      <li><a href="/project/regression-outliers/">How to Find and Deal with Outliers</a></li>
+      <li><a href="/project/logistic-roc/">Logistic Regression</a></li>
       
-      <li><a href="/project/logistic-roc/">Logistic Regression and ROC Curves</a></li>
+      <li><a href="/project/regression-outliers/">Model Diagnostics</a></li>
       
     </ul>
   </div>

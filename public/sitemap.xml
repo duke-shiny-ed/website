@@ -39,6 +39,10 @@
   </url>
   
   <url>
+    <loc>/project/anova/</loc>
+  </url>
+  
+  <url>
     <loc>/authors/</loc>
   </url>
   
@@ -48,14 +52,6 @@
   
   <url>
     <loc>/</loc>
-  </url>
-  
-  <url>
-    <loc>/project/anova/</loc>
-  </url>
-  
-  <url>
-    <loc>/project/regression-outliers/</loc>
   </url>
   
   <url>
@@ -72,6 +68,10 @@
   
   <url>
     <loc>/author/maria-tackett/</loc>
+  </url>
+  
+  <url>
+    <loc>/project/regression-outliers/</loc>
   </url>
   
   <url>

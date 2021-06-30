@@ -17,7 +17,7 @@ social:
   link: https://github.com/duke-shiny-ed/OutlierApp
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/glenmorgenstern?lang=en
+  link: https://github.com/duke-shiny-ed/ROCCurves
   
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.  

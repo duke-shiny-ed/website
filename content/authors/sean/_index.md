@@ -25,7 +25,7 @@ social:
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.  
 user_groups:
-- Students
+- Spring 2021
 ---
 
 Sean is a freshman studying Statistics & Computer Science at Duke University. In his free time, he likes to go for runs, explore nature, and go longboarding.

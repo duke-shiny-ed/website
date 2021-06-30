@@ -22,7 +22,7 @@ social:
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.  
 user_groups:
-- Students
+- Summer 2020
 ---
 
 Glen Morgenstern is a junior at Duke University studying Economics and Public Policy, with a Minor in Statistical Science. When he's not making Shiny apps, Glen writes sports for *The Duke Chronicle* and volunteers in a lab.

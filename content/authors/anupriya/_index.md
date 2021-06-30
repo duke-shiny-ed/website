@@ -1,5 +1,5 @@
 ---
-title: Anupriya Sivakumar
+title: Anupriya Sivakumar (Project Manager)
 Name: anupriya
 weight: 10
 authors: 
@@ -20,7 +20,7 @@ social:
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.  
 user_groups:
-- Project Manager
+- Summer 2020
 ---
 
-Anupriya Sivakumar is currently a Cybersecurity Analyst at Fidelity Investments. She graduated from Duke in 2019 with a B.S. in Statistics and Psychology. She is passionate about data analysis, visualization, and effectively communicating data-driven insights critical to strategic business decisions.   
+Anupriya Sivakumar was the project manager in Summer 2020. She is currently a Cybersecurity Analyst at Fidelity Investments. She graduated from Duke in 2019 with a B.S. in Statistics and Psychology. She is passionate about data analysis, visualization, and effectively communicating data-driven insights critical to strategic business decisions.   

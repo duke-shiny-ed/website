@@ -1,7 +1,7 @@
 ---
 title: Emmanuel Mokel
 name: Emmanuel
-weight: 20
+weight: 30
 authors: 
 - manny
 organizations:
@@ -21,7 +21,7 @@ social:
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.  
 user_groups:
-- Students
+- Spring 2021
 ---
 
 Emmanuel is a rising sophomore at Duke studying Mathematics and Statistical Science, with interests in applications to biotech, genetics, and more. In his free time he enjoys running, watching sports, cooking, and traveling.”

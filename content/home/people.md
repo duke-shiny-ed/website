@@ -8,5 +8,5 @@ weight = 70 # Order that this section will appear.
 title = "Meet the Team"
 
 [content]
-user_groups = ["Project Lead", "Project Manager", "Students"]
+user_groups = ["Project Lead", "Summer 2020", "Spring 2021"]
 +++

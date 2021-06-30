@@ -25,7 +25,7 @@ social:
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.  
 user_groups:
-- Students
+- Summer 2020
 ---
 
 Joe is a junior at Duke pursuing majors in Statistics and Economics, and a certificate in Decision Sciences. Joe fences for Duke and is an active member of Duke's Asian Students Association and Scale & Coin Business Society. 

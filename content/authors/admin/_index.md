@@ -20,10 +20,13 @@ social:
   link: https://github.com/duke-shiny-ed
 ---
 
-Duke ShinyEd is a program where students develop interactive apps to explore concepts for introductory and intermediate level statistics courses. It is inspired by the [ShinyEd](http://www2.stat.duke.edu/~mc301/shinyed/) project and the [Book of Apps for Statistics Teaching (BOAST)](https://sites.psu.edu/shinyapps/) at Penn State. In a span of 6 weeks, students to develop interactive apps using R Shiny and conceptual assessments to help students again a more in-depth understanding of foundational statistical concepts. 
+Duke ShinyEd is a program where students develop interactive apps to explore concepts for introductory and intermediate level statistics courses. It was inspired and modeled after the [ShinyEd](http://www2.stat.duke.edu/~mc301/shinyed/) project and the [Book of Apps for Statistics Teaching (BOAST)](https://sites.psu.edu/shinyapps/) at Penn State. 
 
-The program was lead by faculty mentor Prof. Maria Tackett  and project manager Anupriya Sivakumar. Undergraduate students Joe Choo, Abbey List, Glen Morgenstern, and Samantha Owusu-Antwi participated during Summer 2020.
+The program was originally held over six weeks in Summer 2020 and continued in Spring 2021.  
 
 For further information or questions please e-mail [maria.tackett@duke.edu](mailto:maria.tackett@duke.edu).
+
+Check out [our poster](https://www.causeweb.org/cause/uscots/uscots21/we-17-developing-interactive-statistics-apps-look-project-and-student-experience) at [USCOTS 2021](https://www.causeweb.org/cause/uscots/uscots21)! 
+
 
 

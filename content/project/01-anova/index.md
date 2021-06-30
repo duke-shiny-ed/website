@@ -1,6 +1,6 @@
 ---
 image:
-  caption: Screen shot of Exploring ANOVA app
+  caption: ANOVA
   focal_point: Smart
 links:
 - icon: atom

@@ -43,29 +43,20 @@
       <guid>/project/04-hypothesis-testing/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
 &lt;p&gt;Often in research and data analysis, we want to investigate certain new claims that challenge what is currently believed, so we take some sample data and see whether or not it supports our new claim. Hypothesis testing is a reliable way to take sample data and test how strongly its evidence supports our new claim &amp;ndash; if the evidence is strong, we can reject the old beliefs and support the new; if it is weak, we cannot reject the old beliefs.&lt;/p&gt;
-&lt;p&gt;This app will allow you to explore hypothesis testing from beginning to end, giving you skills to:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Identify appropriate null and alternative hypotheses for a problem scenario, and effectively interpret test conclusions in terms of the hypotheses/practical scenario.&lt;/li&gt;
-&lt;li&gt;Properly calculate and interpret test statistic, p-value, and alpha level, and understand how to use them to make a conclusion.&lt;/li&gt;
-&lt;li&gt;Correctly define and interpret Type I and Type II errors, and calculate their probabilities, given various parameters such as alpha, sample size, and testing power. Understand the conditions/assumptions under which each type of error may occur.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;instructions&#34;&gt;Instructions&lt;/h2&gt;
-&lt;p&gt;The app is optimally viewed in full screen on the Google Chrome browser. For the best experience with the Hypothesis Testing App, try following these steps:&lt;/p&gt;
-&lt;h3 id=&#34;step-1-overview&#34;&gt;Step 1: Overview&lt;/h3&gt;
-&lt;p&gt;Check out the Overview page for a big-picture look at hypothesis testing, as well as the introduction of our running example and other small tips about the app&amp;rsquo;s functionality.&lt;/p&gt;
-&lt;h3 id=&#34;step-2-nullalternative-hypotheses&#34;&gt;Step 2: Null/Alternative Hypotheses&lt;/h3&gt;
-&lt;p&gt;Head to the Null/Alternative Hypotheses page to see the interactive sidebar and choose your parameters for your hypothesis test. Then, read about how the hypotheses are formed, and view the distributions graphically!&lt;/p&gt;
-&lt;h3 id=&#34;step-3-test-statisticp-value&#34;&gt;Step 3: Test Statistic/P-Value&lt;/h3&gt;
-&lt;p&gt;Next, visit the Test Statistic/P-Value page to explore how to calculate the hypothesis test results, compare values to make a conclusion, and observe your results on a plot.&lt;/p&gt;
-&lt;h3 id=&#34;step-4-type-itype-ii-error&#34;&gt;Step 4: Type I/Type II Error&lt;/h3&gt;
-&lt;p&gt;Then, you can look at the Type I/Type II Error tab for an explanation of the kinds of errors that can occur in hypothesis tests and how to reduce them.&lt;/p&gt;
-&lt;h3 id=&#34;step-5-quiz&#34;&gt;Step 5: Quiz&lt;/h3&gt;
-&lt;p&gt;Finally, take a quiz on the Quiz tab to test your knowledge and see if you&amp;rsquo;re a hypothesis test expert!&lt;/p&gt;
-&lt;h3 id=&#34;optional-step-6-resources&#34;&gt;Optional Step 6: Resources&lt;/h3&gt;
-&lt;p&gt;If you&amp;rsquo;re interested in further information, like testing parameters other than the population mean or a t-distribution calculator, check out the Resources page for more!&lt;/p&gt;
-&lt;p&gt;You can reset parameters, re-sample the data, and re-run the hypothesis test simulation at any time, so be sure to try out different scenarios to see what happens!&lt;/p&gt;
+&lt;h2 id=&#34;learning-goals&#34;&gt;Learning Goals&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Identify appropriate null and alternative hypotheses for a problem scenario, and effectively interpret test conclusions in terms of the hypotheses/practical scenario.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Calculate and interpret test statistic, p-value, and alpha level, and understand how to use them to make a conclusion.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Define and interpret Type I and Type II errors, and calculate their probabilities, given various parameters such as alpha, sample size, and testing power. Understand the conditions/assumptions under which each type of error may occur.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
 &lt;hr&gt;
-&lt;p&gt;&lt;em&gt;This app was developed by Abbey List as part of the Summer 2020 Duke Shiny Ed program.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;This app was developed by Abbey List in Summer 2020.&lt;/em&gt;&lt;/p&gt;
 </description>
     </item>
     
